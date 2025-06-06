@@ -1,0 +1,8 @@
+catboost_info
+.ipynb_checkpoints
+.kaggle
+.mlops
+__pycache__
+*.pyc
+mlruns
+mlartifacts
