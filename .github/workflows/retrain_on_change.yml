@@ -5,8 +5,8 @@ on:
     branches:
       - main
     paths:  # (re)train when train data changes or when the preproc or train code changes
-      - 'data/raw/train.csv'
-      - 'data/processed/train.csv'
+      - 'data/raw/diabetes.csv'
+      - 'data/processed/diabetes.csv'
       - 'ARISA_DSML/preproc.py'
       - 'ARISA_DSML/train.py'
       - 'models/best_params.pkl'  # model should also be retrained after hyperparam tuning is run
@@ -62,7 +62,7 @@ jobs:
         env: 
           MLFLOW_TRACKING_URI: ${{ secrets.MLFLOW_TRACKING_URI }}
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}      
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         run: make train
 
       - name: Upload trained model

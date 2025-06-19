@@ -5,10 +5,10 @@ on:
     branches:
       - main
     paths:  # predict when the test set has changed, as well as when the model artifact is updated
-      - 'data/raw/test.csv'
+      - 'data/raw/diabetes.csv'
       - 'data/processed/test.csv'
       - 'ARISA_DSML/predict.py'
-      - 'models/catboost_model_titanic.cbm'
+      - 'models/catboost_model_diabetes.cbm'
   workflow_dispatch:  # Allows manual triggering from the train workflow
 jobs:
   preprocess:
@@ -75,6 +75,7 @@ jobs:
         with:
           name: predictions
           path: models/preds.csv
+
       - name: Install AWS CLI
         run: |
           pip install --upgrade awscli
