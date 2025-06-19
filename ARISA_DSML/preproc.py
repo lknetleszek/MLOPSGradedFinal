@@ -1,72 +1,42 @@
-"""Functions for preprocessing the data."""
+"""Functions for preprocessing the diabetes dataset."""
 
 import os
 from pathlib import Path
-import re
-import zipfile
 
 from kaggle.api.kaggle_api_extended import KaggleApi
 from loguru import logger
 import pandas as pd
 
-from ARISA_DSML.config import DATASET, DATASET_TEST, PROCESSED_DATA_DIR, RAW_DATA_DIR
+from ARISA_DSML.config import DATASET, PROCESSED_DATA_DIR, RAW_DATA_DIR
 
 
-def get_raw_data(dataset:str=DATASET, dataset_test:str=DATASET_TEST)->None:
+def get_raw_data(dataset: str = DATASET) -> None:
+    """Download and unzip the diabetes dataset from Kaggle."""
     api = KaggleApi()
     api.authenticate()
 
     download_folder = Path(RAW_DATA_DIR)
-    zip_path = download_folder / "titanic.zip"
-
     logger.info(f"RAW_DATA_DIR is: {RAW_DATA_DIR}")
-    api.competition_download_files(dataset, path=str(download_folder))
-    api.dataset_download_files(dataset_test, path=str(download_folder), unzip=True)
-
-    with zipfile.ZipFile(zip_path, "r") as zip_ref:
-        zip_ref.extractall(str(download_folder))
-
-    Path.unlink(zip_path)
+    api.dataset_download_files(dataset, path=str(download_folder), unzip=True)
 
 
-def extract_title(name:str)-> str|None:
-    """Extract title from passenger name."""
-    match = re.search(r",\s*([\w\s]+)\.", name)
-
-    return match.group(1) if match else None
-
-
-def preprocess_df(file:str|Path)->str|Path:
-    """Preprocess datasets."""
+def preprocess_df(file: str | Path) -> str | Path:
+    """Preprocess the diabetes dataset for ML pipeline."""
     _, file_name = os.path.split(file)
     df_data = pd.read_csv(file)
-    df_data = df_data.drop(columns=["Ticket"])
 
-    df_data["Title"] = df_data["Name"].apply(extract_title)
+    # List of columns in the diabetes dataset that should not have zeros
+    cols_with_missing = ["Glucose", "BloodPressure", "SkinThickness", "Insulin", "BMI"]
+    for col in cols_with_missing:
+        if col in df_data.columns:
+            df_data[col] = df_data[col].replace(0, pd.NA)
+            df_data[col] = df_data[col].fillna(df_data[col].median())
 
-    # pattern to match a letter followed by a number
-    cabin_pattern = r"([A-Za-z]+)(\d+)"
+    # Optionally drop any irrelevant columns (uncomment if needed)
+    # if 'id' in df_data.columns:
+    #     df_data = df_data.drop(columns=['id'])
 
-    # run pattern on Cabin to extract all matches
-    matches = df_data["Cabin"].str.extractall(cabin_pattern)
-    matches = matches.reset_index()
-
-    # create a new column for each letter and number matched
-    result = matches.pivot(index="level_0", columns="match", values=[0, 1])
-    result.columns = [f"{col[0]}_{col[1]}" for col in result.columns]
-
-    # join to original train dataframe
-    df_data = df_data.join(result[["0_0", "1_0"]])
-
-    # fill nans
-    df_data["1_0"] = df_data["1_0"].astype(float)
-    df_data = df_data.fillna({"0_0": "N", "1_0": df_data["1_0"].mean()})
-    df_data["1_0"] = df_data["1_0"].astype(int)
-
-    # rename new columns and drop old ones
-    df_data = df_data.rename(columns={"0_0": "Deck", "1_0": "CabinNumber"})
-    df_data = df_data.drop(columns=["Cabin", "Name"], axis=1)
-    df_data = df_data.fillna({"Embarked": "N", "Age": df_data["Age"].mean()})
+    # Save preprocessed data
     PROCESSED_DATA_DIR.mkdir(parents=True, exist_ok=True)
     outfile_path = PROCESSED_DATA_DIR / file_name
     df_data.to_csv(outfile_path, index=False)
@@ -74,13 +44,20 @@ def preprocess_df(file:str|Path)->str|Path:
     return outfile_path
 
 
-if __name__=="__main__":
-    # get the train and test sets from default location
-    logger.info("getting datasets")
+if __name__ == "__main__":
+    # Download the dataset
+    logger.info("Getting diabetes dataset")
     get_raw_data()
 
-    # preprocess both sets
-    logger.info("preprocessing train.csv")
-    preprocess_df(RAW_DATA_DIR / "train.csv")
-    logger.info("preprocessing test.csv")
-    preprocess_df(RAW_DATA_DIR / "test.csv")
+    # Find the CSV file downloaded
+    files = list(Path(RAW_DATA_DIR).glob("*.csv"))
+    if not files:
+        logger.error("No CSV file found in the raw data directory.")
+        raise FileNotFoundError("Expected a diabetes CSV file in raw data directory.")
+
+    # Preprocess the file
+    for file in files:
+        logger.info(f"Preprocessing {file.name}")
+        preprocess_df(file)
+    logger.info("Preprocessing complete.")
+    logger.info("All files processed and saved in the processed data directory.")

@@ -12,8 +12,8 @@ load_dotenv()
 PROJ_ROOT = Path(__file__).resolve().parents[1]
 logger.info(f"PROJ_ROOT path is: {PROJ_ROOT}")
 
-DATASET = "bots_vs_users"  # original competition dataset
-DATASET_TEST = "wesleyhowe/titanic-labelled-test-set"  # test set augmented with target labels
+DATASET = "uciml/pima-indians-diabetes-database"  # original competition dataset
+DATASET_TEST = "none"  # test set augmented with target labels
 
 DATA_DIR = PROJ_ROOT / "data"
 RAW_DATA_DIR = DATA_DIR / "raw"
@@ -26,14 +26,16 @@ MODELS_DIR = PROJ_ROOT / "models"
 REPORTS_DIR = PROJ_ROOT / "reports"
 FIGURES_DIR = REPORTS_DIR / "figures"
 
-MODEL_NAME = "titanic-surv-bclass"
+MODEL_NAME = "diabetes-binary-class"
 
 categorical = [
-    "Pclass",
-    "Sex",
-    "Embarked",
-    "Deck",
-    "Title",
+    "Pregnancies",
+    "Glucose",
+    "BloodPressure",
+    "SkinThickness",
+    "Insulin",
+    "BMI",
+    "DiabetesPedigreeFunction",
 ]
 
-target = "Survived"
+target = "Outcome"
