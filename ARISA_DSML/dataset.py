@@ -12,8 +12,8 @@ app = typer.Typer()
 @app.command()
 def main(
     # ---- REPLACE DEFAULT PATHS AS APPROPRIATE ----
-    input_path: Path = RAW_DATA_DIR / "bots_vs_users.csv",
-    output_path: Path = PROCESSED_DATA_DIR / "bots_vs_users.csv",
+    input_path: Path = RAW_DATA_DIR / "diabetes.csv",
+    output_path: Path = PROCESSED_DATA_DIR / "diabetes.csv",
     # ----------------------------------------------
 ):
     # ---- REPLACE THIS WITH YOUR OWN CODE ----

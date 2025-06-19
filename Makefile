@@ -2,7 +2,7 @@
 # GLOBALS                                                                       #
 #################################################################################
 
-PROJECT_NAME = titanic-survival-classification
+PROJECT_NAME = diabetes-prediction
 PYTHON_VERSION = 3.11
 PYTHON_INTERPRETER = python
 

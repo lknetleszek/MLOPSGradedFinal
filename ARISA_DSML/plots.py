@@ -12,7 +12,7 @@ app = typer.Typer()
 @app.command()
 def main(
     # ---- REPLACE DEFAULT PATHS AS APPROPRIATE ----
-    input_path: Path = PROCESSED_DATA_DIR / "dataset.csv",
+    input_path: Path = PROCESSED_DATA_DIR / "diabetes.csv",
     output_path: Path = FIGURES_DIR / "plot.png",
     # -----------------------------------------
 ):
