@@ -128,10 +128,9 @@ def train(
     with mlflow.start_run():
         params["ignored_features"] = []
 
-        model = CatBoostClassifier(
-            **params,
-            verbose=True,
-        )
+        params["feature_columns"] = X_train.columns.tolist()
+        catboost_params = {k: v for k, v in params.items() if k != "feature_columns"}
+        model = CatBoostClassifier(**catboost_params, verbose=True)
 
         model.fit(
             X_train,

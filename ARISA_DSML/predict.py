@@ -36,16 +36,13 @@ def predict(model:CatBoostClassifier, df_pred:pd.DataFrame, params:dict, probs=F
     plot_shap(model, df_pred[feature_columns])
     df_pred[target] = preds
     preds_path = MODELS_DIR / "preds.csv"
-    if not probs:
-        df_pred[["PassengerId", target]].to_csv(preds_path, index=False)
-    else:
-        df_pred[["PassengerId", target, "predicted_probability"]].to_csv(preds_path, index=False)
+    
 
     return preds_path
 
 
 if __name__=="__main__":
-    df_test = pd.read_csv(PROCESSED_DATA_DIR / "test.csv")
+    df_test = pd.read_csv(PROCESSED_DATA_DIR / "diabetes.csv")
 
     client = MlflowClient(mlflow.get_tracking_uri())
     model_info = get_model_by_alias(client, alias="champion")
@@ -86,13 +83,13 @@ if __name__=="__main__":
     from ARISA_DSML.train import get_or_create_experiment
     from ARISA_DSML.helpers import get_git_commit_hash
     git_hash = get_git_commit_hash()
-    mlflow.set_experiment("titanic_predictions")
+    mlflow.set_experiment("diabetes_predictions")
     with mlflow.start_run(tags={"git_sha": get_git_commit_hash()}):
         estimated_performance = estimator.estimate(analysis_df)
         fig1 = estimated_performance.plot()
         mlflow.log_figure(fig1, "estimated_performance.png")
-        univariate_drift = udc.calculate(analysis_df.drop(columns=["PassengerId", "prediction", "predicted_probability"], axis=1))
-        plot_col_names = analysis_df.drop(columns=["PassengerId", "prediction", "predicted_probability"], axis=1).columns
+        univariate_drift = udc.calculate(analysis_df.drop(columns=["prediction", "predicted_probability"], axis=1))
+        plot_col_names = analysis_df.drop(columns=["prediction", "predicted_probability"], axis=1).columns
         for p in plot_col_names:
             try:
                 fig2 = univariate_drift.filter(column_names=[p]).plot()

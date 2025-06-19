@@ -7,3 +7,4 @@ __pycache__
 mlruns
 mlartifacts
 .env
+venv-mlops
