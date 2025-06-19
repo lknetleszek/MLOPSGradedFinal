@@ -21,7 +21,7 @@ def plot_shap(model:CatBoostClassifier, df_plot:pd.DataFrame)->None:
     shap_values = explainer.shap_values(df_plot)
 
     shap.summary_plot(shap_values, df_plot, show=False)
-    plt.savefig(FIGURES_DIR / "test_shap_overall.png")
+    plt.savefig(FIGURES_DIR / "diabetes_shap_overall.png")
 
 
 def predict(model:CatBoostClassifier, df_pred:pd.DataFrame, params:dict, probs=False)->str|Path:
@@ -34,8 +34,10 @@ def predict(model:CatBoostClassifier, df_pred:pd.DataFrame, params:dict, probs=F
         df_pred["predicted_probability"] = [p[1] for p in model.predict_proba(df_pred[feature_columns])]
 
     plot_shap(model, df_pred[feature_columns])
-    df_pred[target] = preds
+    df_pred["prediction"] = preds
     preds_path = MODELS_DIR / "preds.csv"
+    cols = ["prediction", "predicted_probability"] if probs else ["prediction"]
+    df_pred[cols].to_csv(preds_path, index=False)
     
 
     return preds_path
@@ -77,25 +79,27 @@ if __name__=="__main__":
     df_preds = pd.read_csv(preds_path)
 
     analysis_df = df_test.copy()
-    analysis_df["prediction"] = df_preds[target]
+    analysis_df["prediction"] = df_preds["prediction"]
     analysis_df["predicted_probability"] = df_preds["predicted_probability"]
 
     from ARISA_DSML.train import get_or_create_experiment
     from ARISA_DSML.helpers import get_git_commit_hash
     git_hash = get_git_commit_hash()
     mlflow.set_experiment("diabetes_predictions")
-    with mlflow.start_run(tags={"git_sha": get_git_commit_hash()}):
+    with mlflow.start_run(tags={"git_sha": git_hash}):
         estimated_performance = estimator.estimate(analysis_df)
-        fig1 = estimated_performance.plot()
-        mlflow.log_figure(fig1, "estimated_performance.png")
-        univariate_drift = udc.calculate(analysis_df.drop(columns=["prediction", "predicted_probability"], axis=1))
-        plot_col_names = analysis_df.drop(columns=["prediction", "predicted_probability"], axis=1).columns
-        for p in plot_col_names:
+        mlflow.log_figure(estimated_performance.plot(), "estimated_performance.png")
+
+        drop_cols = ["prediction", "predicted_probability"]
+        features = analysis_df.drop(columns=drop_cols, errors="ignore").columns
+
+        univariate_drift = udc.calculate(analysis_df.drop(columns=drop_cols, errors="ignore"))
+        for p in features:
             try:
-                fig2 = univariate_drift.filter(column_names=[p]).plot()
-                mlflow.log_figure(fig2, f"univariate_drift_{p}.png")
-                fig3 = univariate_drift.filter(period="analysis", column_names=[p]).plot(kind='distribution')
-                mlflow.log_figure(fig3, f"univariate_drift_dist_{p}.png")
-            except:
-                logger.info("failed to plot some univariate drift analyses!")
-        mlflow.log_params({"git_hash": git_hash})
+                fig = univariate_drift.filter(column_names=[p]).plot()
+                mlflow.log_figure(fig, f"univariate_drift_{p}.png")
+                fig_dist = univariate_drift.filter(period="analysis", column_names=[p]).plot(kind='distribution')
+                mlflow.log_figure(fig_dist, f"univariate_drift_dist_{p}.png")
+            except Exception as e:
+                logger.warning(f"Drift plotting failed for {p}: {e}")
+    mlflow.log_params({"git_hash": git_hash})
