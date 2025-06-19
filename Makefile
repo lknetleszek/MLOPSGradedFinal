@@ -2,8 +2,8 @@
 # GLOBALS                                                                       #
 #################################################################################
 
-PROJECT_NAME = humans-vs-bots
-PYTHON_VERSION = 3.12
+PROJECT_NAME = diabetes-prediction
+PYTHON_VERSION = 3.11
 PYTHON_INTERPRETER = python
 
 #################################################################################
