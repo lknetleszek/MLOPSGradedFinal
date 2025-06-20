@@ -312,14 +312,14 @@ if __name__ == "__main__":
         X_train.columns.get_loc(col) for col in categorical if col in X_train.columns
     ]
 
-    experiment_id = get_or_create_experiment("diabetes_hyperparam_tuning")
+    experiment_id = get_or_create_experiment("diabetes_hyperparam_tuning_v2")
     mlflow.set_experiment(experiment_id=experiment_id)
     best_params_path = run_hyperopt(X_train, y_train, categorical_indices)
     params = joblib.load(best_params_path)
     cv_output_path = train_cv(X_train, y_train, categorical_indices, params)
     cv_results = pd.read_csv(cv_output_path)
 
-    experiment_id = get_or_create_experiment("diabetes_full_training")
+    experiment_id = get_or_create_experiment("diabetes_full_training_v2")
     mlflow.set_experiment(experiment_id=experiment_id)
     model_path, model_params_path = train(
         X_train, y_train, categorical_indices, params, cv_results=cv_results
