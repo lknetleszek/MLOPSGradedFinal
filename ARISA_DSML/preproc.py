@@ -10,6 +10,7 @@ from ARISA_DSML.config import DATASET, PROCESSED_DATA_DIR, RAW_DATA_DIR
 
 pd.set_option('future.no_silent_downcasting', True)
 
+
 def get_raw_data(dataset: str = DATASET) -> None:
     """Download and unzip the diabetes dataset from Kaggle."""
     api = KaggleApi()

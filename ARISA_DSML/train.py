@@ -155,7 +155,7 @@ def train(
         mlflow.log_metric("f1_cv_mean", cv_metric_mean)
 
         signature = infer_signature(X_train, model.predict(X_train))
-        
+
         # Log the model
         model_info = mlflow.catboost.log_model(
             cb_model=model,
