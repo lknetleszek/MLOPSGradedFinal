@@ -12,6 +12,7 @@ import pandas as pd
 import plotly.graph_objects as go
 from sklearn.metrics import f1_score, log_loss
 from sklearn.model_selection import train_test_split
+from mlflow.models.signature import infer_signature
 
 from ARISA_DSML.config import (
     FIGURES_DIR,
@@ -153,12 +154,15 @@ def train(
         cv_metric_mean = cv_results["test-F1-mean"].mean()
         mlflow.log_metric("f1_cv_mean", cv_metric_mean)
 
+        signature = infer_signature(X_train, model.predict(X_train))
+
         # Log the model
         model_info = mlflow.catboost.log_model(
             cb_model=model,
             artifact_path="model",
             input_example=X_train,
             registered_model_name=MODEL_NAME,
+            signature=signature
         )
         client = MlflowClient(mlflow.get_tracking_uri())
         model_info = client.get_latest_versions(MODEL_NAME)[0]

@@ -2,12 +2,13 @@
 
 import os
 from pathlib import Path
-
 from kaggle.api.kaggle_api_extended import KaggleApi
 from loguru import logger
 import pandas as pd
-
 from ARISA_DSML.config import DATASET, PROCESSED_DATA_DIR, RAW_DATA_DIR
+
+
+pd.set_option('future.no_silent_downcasting', True)
 
 
 def get_raw_data(dataset: str = DATASET) -> None:
