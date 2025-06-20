@@ -10,9 +10,7 @@ import os
 from ARISA_DSML.config import (
     FIGURES_DIR,
     MODELS_DIR,
-    target,
     PROCESSED_DATA_DIR,
-    categorical,
     MODEL_NAME,
 )
 from ARISA_DSML.resolve import get_model_by_alias
@@ -20,6 +18,7 @@ import mlflow
 from mlflow.client import MlflowClient
 import json
 import nannyml as nml
+from ARISA_DSML.helpers import get_git_commit_hash
 
 
 def plot_shap(model: CatBoostClassifier, df_plot: pd.DataFrame) -> None:
@@ -35,7 +34,7 @@ def predict(model: CatBoostClassifier, df_pred: pd.DataFrame, params: dict, prob
     feature_columns = params.pop("feature_columns", None)
     if feature_columns is None:
         raise ValueError("Missing 'feature_columns' in params. Cannot perform prediction.")
-    
+
     preds = model.predict(df_pred[feature_columns])
     if probs:
         df_pred["predicted_probability"] = [p[1] for p in model.predict_proba(df_pred[feature_columns])]
@@ -83,7 +82,7 @@ if __name__ == "__main__":
             params["feature_columns"] = [inp["name"] for inp in json.loads(signature["inputs"])]
     except Exception as e:
         logger.warning(f"Signature not found in mlflow log-model history: {e}")
-    
+
     if "feature_columns" not in params:
         # Fallback to model_params.pkl
         try:
@@ -100,10 +99,6 @@ if __name__ == "__main__":
     analysis_df = df_test.copy()
     analysis_df["prediction"] = df_preds["prediction"]
     analysis_df["predicted_probability"] = df_preds["predicted_probability"]
-
-    from ARISA_DSML.train import get_or_create_experiment
-    from ARISA_DSML.helpers import get_git_commit_hash
-
     git_hash = get_git_commit_hash()
     mlflow.set_experiment("diabetes_predictions")
     with mlflow.start_run(tags={"git_sha": git_hash}):

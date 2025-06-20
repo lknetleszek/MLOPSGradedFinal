@@ -1,7 +1,6 @@
-from fastapi import FastAPI, UploadFile, File, Body
+from fastapi import FastAPI, UploadFile, Body
 import pandas as pd
 import json
-from typing import Dict
 import io
 from fastapi.responses import JSONResponse, ORJSONResponse
 from loguru import logger
@@ -16,9 +15,7 @@ def predict(df):
 
 
 @app.post("/predict/")
-async def handle_predict(file: UploadFile,
-                   data = Body(None)):
-
+async def handle_predict(file: UploadFile, data=Body(None)):
     if file:
         content = await file.read()
         try:
