@@ -308,9 +308,7 @@ if __name__ == "__main__":
     y_train = df_train.pop(target)
     X_train = df_train
 
-    categorical_indices = [
-        X_train.columns.get_loc(col) for col in categorical if col in X_train.columns
-    ]
+    categorical_indices = []
 
     experiment_id = get_or_create_experiment("diabetes_hyperparam_tuning_v2")
     mlflow.set_experiment(experiment_id=experiment_id)
