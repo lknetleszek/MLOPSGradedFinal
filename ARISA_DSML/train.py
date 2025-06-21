@@ -19,7 +19,6 @@ from ARISA_DSML.config import (
     MODEL_NAME,
     MODELS_DIR,
     PROCESSED_DATA_DIR,
-    categorical,
     target,
 )
 from ARISA_DSML.helpers import get_git_commit_hash
