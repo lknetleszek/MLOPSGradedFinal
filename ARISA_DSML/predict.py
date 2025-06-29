@@ -87,7 +87,11 @@ if __name__ == "__main__":
         log_model_meta = json.loads(run.data.tags["mlflow.log-model.history"])
         signature = log_model_meta[0].get("signature", None)
         if signature:
-            params["feature_columns"] = [inp["name"] for inp in json.loads(signature["inputs"])]
+            inputs = signature["inputs"]
+        if isinstance(inputs, str):
+            inputs = json.loads(inputs)
+        params["feature_columns"] = [inp["name"] for inp in inputs]
+        logger.info(f"Extracted feature columns: {params['feature_columns']}")
     except Exception as e:
         logger.warning(f"Signature not found in mlflow log-model history: {e}")
 
