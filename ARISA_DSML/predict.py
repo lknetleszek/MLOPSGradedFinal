@@ -35,6 +35,11 @@ def predict(model: CatBoostClassifier, df_pred: pd.DataFrame, params: dict, prob
     if feature_columns is None:
         raise ValueError("Missing 'feature_columns' in params. Cannot perform prediction.")
 
+    expected_features = params.get("feature_columns", [])
+    missing_cols = [col for col in expected_features if col not in df_test.columns]
+    if missing_cols:
+        raise RuntimeError(f"The following expected feature columns are missing in test data: {missing_cols}")
+
     preds = model.predict(df_pred[feature_columns])
     if probs:
         df_pred["predicted_probability"] = [p[1] for p in model.predict_proba(df_pred[feature_columns])]
@@ -52,6 +57,9 @@ if __name__ == "__main__":
 
     client = MlflowClient(mlflow.get_tracking_uri())
     model_info = get_model_by_alias(client, alias="champion")
+    logger.info(f"Loaded test data with columns: {df_test.columns.tolist()}")
+    logger.info(f"Model info: {model_info}")
+
     if model_info is None:
         logger.info("No champion model, predicting using latest model")
         model_info = client.get_latest_versions(MODEL_NAME)[0]
@@ -92,6 +100,13 @@ if __name__ == "__main__":
                 logger.info("Loaded feature_columns from model_params.pkl.")
         except Exception as e:
             raise RuntimeError("Cannot resolve feature_columns.") from e
+
+    # Log columns and validate schema
+    logger.info(f"Loaded test data with columns: {df_test.columns.tolist()}")
+    expected_features = params.get("feature_columns", [])
+    missing_cols = [col for col in expected_features if col not in df_test.columns]
+    if missing_cols:
+        raise RuntimeError(f"The following expected feature columns are missing in test data: {missing_cols}")
 
     preds_path = predict(loaded_model, df_test, params, probs=True)
     df_preds = pd.read_csv(preds_path)
