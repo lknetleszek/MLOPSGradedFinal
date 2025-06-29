@@ -81,6 +81,10 @@ jobs:
           pip install --upgrade awscli
      
       - name: Debug bucket location
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          ARTIFACT_BUCKET: ${{ secrets.ARTIFACT_BUCKET }}
         run: |
           echo "Bucket location: ${{ secrets.ARTIFACT_BUCKET }}"
           aws s3 ls s3://${{ secrets.ARTIFACT_BUCKET }}/ --recursive
