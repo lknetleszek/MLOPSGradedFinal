@@ -79,6 +79,11 @@ jobs:
       - name: Install AWS CLI
         run: |
           pip install --upgrade awscli
+     
+      - name: Debug bucket location
+        run: |
+          echo "Bucket location: ${{ secrets.ARTIFACT_BUCKET }}"
+          aws s3 ls s3://${{ secrets.ARTIFACT_BUCKET }}/ --recursive
 
       - name: Upload predictions to S3
         env:
