@@ -3,13 +3,14 @@ name: Preproc data and train model
 on: 
   push:
     branches:
-      - main
+      - dev
     paths:  # (re)train when train data changes or when the preproc or train code changes
       - 'data/raw/diabetes.csv'
       - 'data/processed/diabetes.csv'
       - 'ARISA_DSML/preproc.py'
       - 'ARISA_DSML/train.py'
       - 'models/best_params.pkl'  # model should also be retrained after hyperparam tuning is run
+  workflow_dispatch:  # allows manual triggering of the workflow
 
 jobs:
   preprocess:
