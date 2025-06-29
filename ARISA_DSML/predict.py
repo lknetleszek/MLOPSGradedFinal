@@ -147,5 +147,4 @@ if __name__ == "__main__":
         mlflow.log_artifact(MODELS_DIR / "estimator.pkl", "models")
         mlflow.log_artifact(MODELS_DIR / "model_params.pkl", "models")
         mlflow.log_artifact(MODELS_DIR / "preds.csv", "models")
-        mlflow.log_artifact(MODELS_DIR / "model_info.json", "models")
 
