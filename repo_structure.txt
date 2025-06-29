@@ -1,0 +1,2513 @@
+.:
+total 140
+drwxr-xr-x 14 lkwasniewski lkwasniewski  4096 Jun 29 13:49 .
+drwxr-xr-x 13 lkwasniewski lkwasniewski  4096 Jun 29 11:39 ..
+drwxr-xr-x  4 lkwasniewski lkwasniewski  4096 Jun 21 18:49 ARISA_DSML
+drwxr-xr-x  2 lkwasniewski lkwasniewski  4096 Jun 19 12:27 backend
+drwxr-xr-x  6 lkwasniewski lkwasniewski  4096 Jun 19 12:45 data
+-rw-r--r--  1 lkwasniewski lkwasniewski   329 Jun 19 12:27 docker-compose.yml
+-rw-r--r--  1 lkwasniewski lkwasniewski   192 Jun 19 12:27 Dockerfile-simple
+drwxr-xr-x  3 lkwasniewski lkwasniewski  4096 Jun 19 12:45 docs
+-rw-r--r--  1 lkwasniewski lkwasniewski   189 Jun 20 21:09 .env
+drwxr-xr-x  2 lkwasniewski lkwasniewski  4096 Jun 19 12:27 frontend
+drwxr-xr-x  8 lkwasniewski lkwasniewski  4096 Jun 29 13:38 .git
+drwxr-xr-x  3 lkwasniewski lkwasniewski  4096 Jun 19 12:45 .github
+-rw-r--r--  1 lkwasniewski lkwasniewski   109 Jun 19 21:19 .gitignore
+-rw-r--r--  1 lkwasniewski lkwasniewski 35823 Jun 19 12:45 LICENSE
+-rw-r--r--  1 lkwasniewski lkwasniewski  1199 Jun 19 12:27 main-simple.py
+-rw-r--r--  1 lkwasniewski lkwasniewski  1253 Jun 19 20:38 Makefile
+drwxr-xr-x  2 lkwasniewski lkwasniewski  4096 Jun 22 15:41 models
+drwxr-xr-x  4 lkwasniewski lkwasniewski  4096 Jun 22 15:41 notebooks
+-rw-r--r--  1 lkwasniewski lkwasniewski   616 Jun 19 12:45 pyproject.toml
+-rw-r--r--  1 lkwasniewski lkwasniewski  5861 Jun 22 15:41 README.md
+drwxr-xr-x  2 lkwasniewski lkwasniewski  4096 Jun 19 20:14 references
+drwxr-xr-x  3 lkwasniewski lkwasniewski  4096 Jun 19 12:45 reports
+-rw-r--r--  1 lkwasniewski lkwasniewski     0 Jun 29 13:49 repo_structure.txt
+-rw-r--r--  1 lkwasniewski lkwasniewski  3504 Jun 19 20:53 requirements.txt
+drwxr-xr-x  2 lkwasniewski lkwasniewski  4096 Jun 19 22:01 results
+-rw-r--r--  1 lkwasniewski lkwasniewski   171 Jun 19 12:27 setup.cfg
+-rw-r--r--  1 lkwasniewski lkwasniewski   870 Jun 19 12:27 testapi.py
+
+./ARISA_DSML:
+total 64
+drwxr-xr-x  4 lkwasniewski lkwasniewski  4096 Jun 21 18:49 .
+drwxr-xr-x 14 lkwasniewski lkwasniewski  4096 Jun 29 13:49 ..
+-rw-r--r--  1 lkwasniewski lkwasniewski   986 Jun 20 21:26 config.py
+-rw-r--r--  1 lkwasniewski lkwasniewski   801 Jun 19 20:39 dataset.py
+-rw-r--r--  1 lkwasniewski lkwasniewski   812 Jun 20 23:37 features.py
+-rw-r--r--  1 lkwasniewski lkwasniewski   795 Jun 20 22:25 helpers.py
+-rw-r--r--  1 lkwasniewski lkwasniewski     0 Mar 30 18:41 __init__.py
+drwxr-xr-x  2 lkwasniewski lkwasniewski  4096 Jun 19 12:45 modeling
+-rw-r--r--  1 lkwasniewski lkwasniewski   794 Jun 19 20:40 plots.py
+-rw-r--r--  1 lkwasniewski lkwasniewski  6728 Jun 29 12:48 predict.py
+-rw-r--r--  1 lkwasniewski lkwasniewski  2249 Jun 21 00:03 preproc.py
+drwxr-xr-x  2 lkwasniewski lkwasniewski  4096 Jun 22 15:36 __pycache__
+-rw-r--r--  1 lkwasniewski lkwasniewski  2190 Jun 20 22:26 resolve.py
+-rw-r--r--  1 lkwasniewski lkwasniewski 11650 Jun 21 18:49 train.py
+
+./ARISA_DSML/modeling:
+total 16
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 12:45 .
+drwxr-xr-x 4 lkwasniewski lkwasniewski 4096 Jun 21 18:49 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski    0 Jun 19 12:45 __init__.py
+-rw-r--r-- 1 lkwasniewski lkwasniewski  874 Jun 19 12:45 predict.py
+-rw-r--r-- 1 lkwasniewski lkwasniewski  851 Jun 19 12:45 train.py
+
+./ARISA_DSML/__pycache__:
+total 84
+drwxr-xr-x 2 lkwasniewski lkwasniewski  4096 Jun 22 15:36 .
+drwxr-xr-x 4 lkwasniewski lkwasniewski  4096 Jun 21 18:49 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski  1309 Jun 20 21:27 config.cpython-311.pyc
+-rw-r--r-- 1 lkwasniewski lkwasniewski  1209 Jun 19 20:10 config.cpython-312.pyc
+-rw-r--r-- 1 lkwasniewski lkwasniewski  1647 Jun 22 15:36 helpers.cpython-311.pyc
+-rw-r--r-- 1 lkwasniewski lkwasniewski  1368 Jun 19 20:10 helpers.cpython-312.pyc
+-rw-r--r-- 1 lkwasniewski lkwasniewski   186 Jun 19 21:24 __init__.cpython-311.pyc
+-rw-r--r-- 1 lkwasniewski lkwasniewski   165 Jun 19 20:10 __init__.cpython-312.pyc
+-rw-r--r-- 1 lkwasniewski lkwasniewski  8046 Jun 22 15:36 predict.cpython-311.pyc
+-rw-r--r-- 1 lkwasniewski lkwasniewski  3475 Jun 22 15:36 preproc.cpython-311.pyc
+-rw-r--r-- 1 lkwasniewski lkwasniewski  3027 Jun 19 20:10 preproc.cpython-312.pyc
+-rw-r--r-- 1 lkwasniewski lkwasniewski  3064 Jun 22 15:36 resolve.cpython-311.pyc
+-rw-r--r-- 1 lkwasniewski lkwasniewski 15643 Jun 22 15:36 train.cpython-311.pyc
+-rw-r--r-- 1 lkwasniewski lkwasniewski 13836 Jun 19 20:10 train.cpython-312.pyc
+
+./backend:
+total 20
+drwxr-xr-x  2 lkwasniewski lkwasniewski 4096 Jun 19 12:27 .
+drwxr-xr-x 14 lkwasniewski lkwasniewski 4096 Jun 29 13:49 ..
+-rw-r--r--  1 lkwasniewski lkwasniewski  192 Jun 19 12:27 Dockerfile
+-rw-r--r--  1 lkwasniewski lkwasniewski 1146 Jun 20 22:28 main.py
+-rw-r--r--  1 lkwasniewski lkwasniewski 3497 Jun 19 20:43 requirements.txt
+
+./data:
+total 24
+drwxr-xr-x  6 lkwasniewski lkwasniewski 4096 Jun 19 12:45 .
+drwxr-xr-x 14 lkwasniewski lkwasniewski 4096 Jun 29 13:49 ..
+drwxr-xr-x  2 lkwasniewski lkwasniewski 4096 Jun 19 12:45 external
+drwxr-xr-x  2 lkwasniewski lkwasniewski 4096 Jun 19 12:45 interim
+drwxr-xr-x  2 lkwasniewski lkwasniewski 4096 Jun 19 21:40 processed
+drwxr-xr-x  2 lkwasniewski lkwasniewski 4096 Jun 22 15:41 raw
+
+./data/external:
+total 8
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 12:45 .
+drwxr-xr-x 6 lkwasniewski lkwasniewski 4096 Jun 19 12:45 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski    0 Jun 19 12:45 .gitkeep
+
+./data/interim:
+total 8
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 12:45 .
+drwxr-xr-x 6 lkwasniewski lkwasniewski 4096 Jun 19 12:45 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski    0 Jun 19 12:45 .gitkeep
+
+./data/processed:
+total 48
+drwxr-xr-x 2 lkwasniewski lkwasniewski  4096 Jun 19 21:40 .
+drwxr-xr-x 6 lkwasniewski lkwasniewski  4096 Jun 19 12:45 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski 25603 Jun 22 15:36 diabetes.csv
+-rw-r--r-- 1 lkwasniewski lkwasniewski   381 Jun 22 15:36 diabetes_new_test.csv
+-rw-r--r-- 1 lkwasniewski lkwasniewski   439 Jun 22 15:36 diabetes_test.csv
+-rw-r--r-- 1 lkwasniewski lkwasniewski     0 Jun 19 12:45 .gitkeep
+-rw-r--r-- 1 lkwasniewski lkwasniewski   546 Jun 22 15:36 test.csv
+
+./data/raw:
+total 1772
+drwxr-xr-x 2 lkwasniewski lkwasniewski    4096 Jun 22 15:41 .
+drwxr-xr-x 6 lkwasniewski lkwasniewski    4096 Jun 19 12:45 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski 1766869 Jun 19 12:45 bots_vs_users.csv
+-rw-r--r-- 1 lkwasniewski lkwasniewski   23873 Jun 22 15:36 diabetes.csv
+-rw-r--r-- 1 lkwasniewski lkwasniewski     381 Jun 19 20:00 diabetes_new_test.csv
+-rw-r--r-- 1 lkwasniewski lkwasniewski     439 Jun 22 15:36 diabetes_test.csv
+-rw-r--r-- 1 lkwasniewski lkwasniewski       0 Jun 19 12:45 .gitkeep
+-rw-r--r-- 1 lkwasniewski lkwasniewski     511 Jun 22 15:41 test.csv
+
+./docs:
+total 20
+drwxr-xr-x  3 lkwasniewski lkwasniewski 4096 Jun 19 12:45 .
+drwxr-xr-x 14 lkwasniewski lkwasniewski 4096 Jun 29 13:49 ..
+drwxr-xr-x  2 lkwasniewski lkwasniewski 4096 Jun 19 12:45 docs
+-rw-r--r--  1 lkwasniewski lkwasniewski    0 Jun 19 12:45 .gitkeep
+-rw-r--r--  1 lkwasniewski lkwasniewski   80 Jun 19 12:45 mkdocs.yml
+-rw-r--r--  1 lkwasniewski lkwasniewski  199 Jun 19 12:45 README.md
+
+./docs/docs:
+total 16
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 12:45 .
+drwxr-xr-x 3 lkwasniewski lkwasniewski 4096 Jun 19 12:45 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski  262 Jun 19 12:45 getting-started.md
+-rw-r--r-- 1 lkwasniewski lkwasniewski  242 Jun 19 12:45 index.md
+
+./frontend:
+total 20
+drwxr-xr-x  2 lkwasniewski lkwasniewski 4096 Jun 19 12:27 .
+drwxr-xr-x 14 lkwasniewski lkwasniewski 4096 Jun 29 13:49 ..
+-rw-r--r--  1 lkwasniewski lkwasniewski  220 Jun 19 12:27 Dockerfile
+-rw-r--r--  1 lkwasniewski lkwasniewski   25 Jun 19 12:27 requirements.txt
+-rw-r--r--  1 lkwasniewski lkwasniewski 1608 Jun 19 12:27 streamlit_app.py
+
+./.git:
+total 68
+drwxr-xr-x   8 lkwasniewski lkwasniewski 4096 Jun 29 13:38 .
+drwxr-xr-x  14 lkwasniewski lkwasniewski 4096 Jun 29 13:49 ..
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 12:44 branches
+-rw-r--r--   1 lkwasniewski lkwasniewski   21 Jun 29 13:16 COMMIT_EDITMSG
+-rw-r--r--   1 lkwasniewski lkwasniewski  481 Jun 19 20:00 config
+-rw-r--r--   1 lkwasniewski lkwasniewski   73 Jun 19 12:44 description
+-rw-r--r--   1 lkwasniewski lkwasniewski  106 Jun 29 13:16 FETCH_HEAD
+-rw-r--r--   1 lkwasniewski lkwasniewski   20 Jun 22 15:41 HEAD
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 12:44 hooks
+-rw-r--r--   1 lkwasniewski lkwasniewski 6974 Jun 29 13:38 index
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 12:44 info
+drwxr-xr-x   3 lkwasniewski lkwasniewski 4096 Jun 19 12:44 logs
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 objects
+-rw-r--r--   1 lkwasniewski lkwasniewski   41 Jun 29 13:16 ORIG_HEAD
+-rw-r--r--   1 lkwasniewski lkwasniewski  242 Jun 19 12:44 packed-refs
+drwxr-xr-x   5 lkwasniewski lkwasniewski 4096 Jun 19 12:44 refs
+
+./.git/branches:
+total 8
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 12:44 .
+drwxr-xr-x 8 lkwasniewski lkwasniewski 4096 Jun 29 13:38 ..
+
+./.git/hooks:
+total 68
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 12:44 .
+drwxr-xr-x 8 lkwasniewski lkwasniewski 4096 Jun 29 13:38 ..
+-rwxr-xr-x 1 lkwasniewski lkwasniewski  478 Jun 19 12:44 applypatch-msg.sample
+-rwxr-xr-x 1 lkwasniewski lkwasniewski  896 Jun 19 12:44 commit-msg.sample
+-rwxr-xr-x 1 lkwasniewski lkwasniewski 4726 Jun 19 12:44 fsmonitor-watchman.sample
+-rwxr-xr-x 1 lkwasniewski lkwasniewski  189 Jun 19 12:44 post-update.sample
+-rwxr-xr-x 1 lkwasniewski lkwasniewski  424 Jun 19 12:44 pre-applypatch.sample
+-rwxr-xr-x 1 lkwasniewski lkwasniewski 1643 Jun 19 12:44 pre-commit.sample
+-rwxr-xr-x 1 lkwasniewski lkwasniewski  416 Jun 19 12:44 pre-merge-commit.sample
+-rwxr-xr-x 1 lkwasniewski lkwasniewski 1492 Jun 19 12:44 prepare-commit-msg.sample
+-rwxr-xr-x 1 lkwasniewski lkwasniewski 1374 Jun 19 12:44 pre-push.sample
+-rwxr-xr-x 1 lkwasniewski lkwasniewski 4898 Jun 19 12:44 pre-rebase.sample
+-rwxr-xr-x 1 lkwasniewski lkwasniewski  544 Jun 19 12:44 pre-receive.sample
+-rwxr-xr-x 1 lkwasniewski lkwasniewski 2783 Jun 19 12:44 push-to-checkout.sample
+-rwxr-xr-x 1 lkwasniewski lkwasniewski 3650 Jun 19 12:44 update.sample
+
+./.git/info:
+total 12
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 12:44 .
+drwxr-xr-x 8 lkwasniewski lkwasniewski 4096 Jun 29 13:38 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski  240 Jun 19 12:44 exclude
+
+./.git/logs:
+total 20
+drwxr-xr-x 3 lkwasniewski lkwasniewski 4096 Jun 19 12:44 .
+drwxr-xr-x 8 lkwasniewski lkwasniewski 4096 Jun 29 13:38 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski 5843 Jun 29 13:16 HEAD
+drwxr-xr-x 4 lkwasniewski lkwasniewski 4096 Jun 19 12:44 refs
+
+./.git/logs/refs:
+total 16
+drwxr-xr-x 4 lkwasniewski lkwasniewski 4096 Jun 19 12:44 .
+drwxr-xr-x 3 lkwasniewski lkwasniewski 4096 Jun 19 12:44 ..
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 20:00 heads
+drwxr-xr-x 3 lkwasniewski lkwasniewski 4096 Jun 19 12:44 remotes
+
+./.git/logs/refs/heads:
+total 24
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 20:00 .
+drwxr-xr-x 4 lkwasniewski lkwasniewski 4096 Jun 19 12:44 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski 4899 Jun 29 13:16 dev
+-rw-r--r-- 1 lkwasniewski lkwasniewski  170 Jun 19 12:45 Les
+-rw-r--r-- 1 lkwasniewski lkwasniewski  202 Jun 19 12:44 main
+
+./.git/logs/refs/remotes:
+total 12
+drwxr-xr-x 3 lkwasniewski lkwasniewski 4096 Jun 19 12:44 .
+drwxr-xr-x 4 lkwasniewski lkwasniewski 4096 Jun 19 12:44 ..
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 22 15:42 origin
+
+./.git/logs/refs/remotes/origin:
+total 20
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 22 15:42 .
+drwxr-xr-x 3 lkwasniewski lkwasniewski 4096 Jun 19 12:44 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski 4022 Jun 29 13:16 dev
+-rw-r--r-- 1 lkwasniewski lkwasniewski  202 Jun 19 12:44 HEAD
+-rw-r--r-- 1 lkwasniewski lkwasniewski  158 Jun 22 15:42 main
+
+./.git/objects:
+total 712
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 .
+drwxr-xr-x   8 lkwasniewski lkwasniewski 4096 Jun 29 13:38 ..
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 20 23:58 02
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:42 03
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 21 00:16 04
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 12:49 05
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:11 06
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 12:40 07
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 20 22:30 09
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 21 18:49 0a
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 20 21:26 0b
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 12:00 0c
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 21 18:49 0f
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 20 23:58 10
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 20 22:30 11
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 16:09 15
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:17 16
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:17 19
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 12:15 1a
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 13:16 1b
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 12:49 1c
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 21:05 1d
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 21 18:49 1e
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 21 00:16 1f
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 21:05 21
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 13:16 22
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 15:41 24
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 22:00 25
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 15:41 26
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 22:00 29
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 15:41 2b
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:17 2d
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 15:38 2e
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 12:00 2f
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 20 23:58 31
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 20 23:58 33
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 21 00:04 34
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:17 35
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:17 36
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 15:38 38
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 22:58 39
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 11:44 3a
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 22:13 3b
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 22:00 3c
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 15:38 3d
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:17 3f
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 15:38 40
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 20 23:58 41
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:17 43
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 22:13 44
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 12:49 46
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 21 18:49 47
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 15:41 49
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 12:00 4c
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 22:00 4e
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 21 00:25 4f
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:17 50
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 22:13 51
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 12:15 53
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 15:38 54
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:17 55
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 12:49 56
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 20 23:58 59
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 15:41 5a
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 21 18:49 5b
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 13:16 5d
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 20 22:30 60
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 22:00 61
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 12:28 63
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 15:38 66
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 22:00 67
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:17 6c
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 12:00 6d
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 21:05 6e
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 15:38 6f
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 15:42 70
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 22:00 71
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:17 72
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 20 22:30 75
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 22:00 76
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 12:15 78
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 20 22:30 79
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 22:13 7a
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 21 18:49 7b
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:17 7c
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:17 7d
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:11 7e
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 13:16 7f
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 21 00:25 80
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 15:38 81
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 21 18:49 82
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 20 23:58 84
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 12:40 85
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 22:13 86
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 20 21:26 89
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 13:16 8a
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 22:13 8b
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:42 8c
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 21 18:49 8d
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 12:49 8e
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 20 22:30 8f
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 12:49 90
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:42 92
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 15:41 93
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 15:42 96
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 12:28 97
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 15:42 98
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 20 22:30 9a
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 20 23:58 9c
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 20 23:58 9d
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:11 9e
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 20 23:58 9f
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 22:00 a0
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:11 a2
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:17 a3
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 13:06 a4
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 21 00:16 a5
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:42 a7
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 12:40 a8
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 15:38 aa
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 22:58 af
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:17 b1
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 20 22:30 b2
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:11 b7
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:17 b8
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 21 00:04 ba
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 20 21:26 bb
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 22:58 bd
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 21 00:04 be
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 15:42 c1
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 22:00 c4
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 21:05 c5
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 16:09 c6
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 20 22:30 c7
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 15:38 c8
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:17 c9
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:17 ca
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 22:13 cc
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 15:41 cd
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 15:38 ce
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 22:00 cf
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 21:05 d1
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:17 d2
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 12:15 d6
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 15:38 d8
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 12:40 d9
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 15:38 da
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 12:28 db
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 13:06 dd
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 22:00 de
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:11 df
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 15:38 e0
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 20 22:30 e1
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 15:42 e2
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 13:06 e4
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 15:41 e5
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 20 21:26 e7
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 21 00:25 e9
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:17 ea
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 20 23:58 eb
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 11:44 ed
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 22:58 ee
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 15:38 ef
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 20 23:58 f1
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 11:44 f2
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 22:58 f3
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:17 f6
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 12:49 f7
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 15:38 f8
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 20 21:26 f9
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:17 fa
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 21 18:49 fb
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 13:06 fc
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 13:06 fd
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 12:49 fe
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:11 ff
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 12:44 info
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 12:44 pack
+
+./.git/objects/02:
+total 208
+drwxr-xr-x   2 lkwasniewski lkwasniewski   4096 Jun 20 23:58 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski   4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 204389 Jun 20 23:58 d340964c4fc618c3801b8d300e587d285e9cec
+
+./.git/objects/03:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:42 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  416 Jun 19 20:42 62761a759bfbbf1c6cdf116415dc645fa37ae5
+
+./.git/objects/04:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 21 00:16 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  716 Jun 21 00:16 ae23b313b34bdbe602b7f629297a42fe5a75ef
+
+./.git/objects/05:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 12:49 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  715 Jun 29 12:49 6e01c72ae5957ffa97966857e0e2e1df873997
+
+./.git/objects/06:
+total 3368
+drwxr-xr-x   2 lkwasniewski lkwasniewski    4096 Jun 19 20:11 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski    4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 3437248 Jun 19 20:11 16cfb6fd5a431c878966fb03677530421a2efb
+
+./.git/objects/07:
+total 20
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 12:40 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski   49 Jun 19 20:11 348058039c5fce3e2c023b6088f62b9c7fd604
+-r--r--r--   1 lkwasniewski lkwasniewski  540 Jun 20 21:26 a70399a0770e849fa7c7a95723a47ae50a0de8
+-r--r--r--   1 lkwasniewski lkwasniewski  370 Jun 29 12:40 ecdca3afdcacfa9a2c5259cf71356bba4160d3
+
+./.git/objects/09:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 20 22:30 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 1906 Jun 20 22:30 f0ecd65bb374a0a72c1f185117247ce2f78e8a
+
+./.git/objects/0a:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 21 18:49 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  369 Jun 21 18:49 3261c2c4f191cfd998d2ce8721589c5fad1050
+
+./.git/objects/0b:
+total 16
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 20 21:26 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  179 Jun 20 21:26 0fb40275f40a8c6468555c34f752e10679be29
+-r--r--r--   1 lkwasniewski lkwasniewski  429 Jun 19 20:42 bdfdd156b57e5cf7056abb848bd23626e7ff2a
+
+./.git/objects/0c:
+total 16
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 12:00 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 2138 Jun 29 12:00 cbc9aeb579e85835b673aa34a872c7466a06b5
+-r--r--r--   1 lkwasniewski lkwasniewski  893 Jun 22 15:42 eb27c546b0541c80c17cc1662a195e1a630455
+
+./.git/objects/0f:
+total 16
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 21 18:49 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  716 Jun 21 18:49 5e446b88a3016489e2bec07471798691509cf7
+-r--r--r--   1 lkwasniewski lkwasniewski 1752 Jun 19 20:11 b46f6254350c6af93c149a9f5a58d533b75975
+
+./.git/objects/10:
+total 84
+drwxr-xr-x   2 lkwasniewski lkwasniewski  4096 Jun 20 23:58 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski  4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 71486 Jun 20 23:58 d5e183ee082193f1ef826a862ccfec067df374
+-r--r--r--   1 lkwasniewski lkwasniewski   992 Jun 19 20:11 e4495dae316aa2834b26734c54c903e93ffd36
+
+./.git/objects/11:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 20 22:30 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  370 Jun 20 22:30 193b49a9b780fd05cbf6add947df77dbfe7089
+
+./.git/objects/15:
+total 16
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 16:09 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  174 Jun 19 20:11 d7e3a841a58cc87beacd04caa97cecd4dc21cf
+-r--r--r--   1 lkwasniewski lkwasniewski  370 Jun 22 16:09 fd2369a16da6678653c5e412a02604bb603fc6
+
+./.git/objects/16:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:17 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  194 Jun 19 20:17 d34cac0831bb674cb51090b365e706b89d05d7
+
+./.git/objects/19:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:17 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  197 Jun 19 20:17 10acad144760d6eebca56c42988e47d14e8505
+
+./.git/objects/1a:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 12:15 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  369 Jun 29 12:15 18a78813c8a849f777a81a2e1f5693784bffea
+
+./.git/objects/1b:
+total 168
+drwxr-xr-x   2 lkwasniewski lkwasniewski   4096 Jun 29 13:16 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski   4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski    139 Jun 29 13:16 1e80f4ffd993a271d3711dd9d0c67c41111cdb
+-r--r--r--   1 lkwasniewski lkwasniewski 155546 Jun 19 21:05 4d0e801eed0ba349728ea888aaf7aa69d94205
+-r--r--r--   1 lkwasniewski lkwasniewski   3860 Jun 20 23:58 915bfeaf21bbb5e95d315bd4580230eafd4507
+
+./.git/objects/1c:
+total 16
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 12:49 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  181 Jun 22 16:09 20ac28038d243b27e5edf8cd54fe6697184c11
+-r--r--r--   1 lkwasniewski lkwasniewski  202 Jun 29 12:49 62098643e047ff401380eae7789f2337116076
+
+./.git/objects/1d:
+total 76
+drwxr-xr-x   2 lkwasniewski lkwasniewski  4096 Jun 19 21:05 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski  4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 57408 Jun 19 20:17 8fe25f7c37e5d5fc50edd42939a1bbcc0df12f
+-r--r--r--   1 lkwasniewski lkwasniewski   880 Jun 19 20:17 a4aa7d5de86bcfe4bcc3864732c999a5eb2f82
+-r--r--r--   1 lkwasniewski lkwasniewski  1842 Jun 19 21:05 ca9fde44651ea4e614568420c364c6f21da330
+
+./.git/objects/1e:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 21 18:49 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  370 Jun 21 18:49 4fb849b6eb51e0867d18dbc1ec883869bf83e6
+
+./.git/objects/1f:
+total 208
+drwxr-xr-x   2 lkwasniewski lkwasniewski   4096 Jun 21 00:16 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski   4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 204649 Jun 21 00:16 6a8680bd02a1d5390f5db04fdd4714a3a07603
+
+./.git/objects/21:
+total 84
+drwxr-xr-x   2 lkwasniewski lkwasniewski  4096 Jun 19 21:05 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski  4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 77110 Jun 19 21:05 36f297684b35d7208841dfda80167309fe9c27
+
+./.git/objects/22:
+total 16
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 13:16 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  174 Jun 29 13:16 22b069969c23e57c0d2413d60a6b797b53ded0
+-r--r--r--   1 lkwasniewski lkwasniewski  165 Jun 19 20:17 89073f2e997930b0a899b741d3efd7e45d8153
+
+./.git/objects/24:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 15:41 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  178 Jun 22 15:41 aff088821dc6ca9e4c61df7132e04f6e1af714
+
+./.git/objects/25:
+total 28
+drwxr-xr-x   2 lkwasniewski lkwasniewski  4096 Jun 19 22:00 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski  4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 17353 Jun 22 15:38 a6a2ec7311afa3f4abbc270b9342cd341b3336
+
+./.git/objects/26:
+total 60
+drwxr-xr-x   2 lkwasniewski lkwasniewski  4096 Jun 22 15:41 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski  4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski   415 Jun 20 23:58 54db4e7e68fbcc1a4f37d528b54b0fb4ea0dfa
+-r--r--r--   1 lkwasniewski lkwasniewski   211 Jun 22 15:38 90a3092d5ae4f1378a4506ecedcf54a4676e91
+-r--r--r--   1 lkwasniewski lkwasniewski   715 Jun 22 15:41 bfac221df66ddaee993265b5a43fc53578c08a
+-r--r--r--   1 lkwasniewski lkwasniewski 38272 Jun 20 22:30 d97e763dde3b20e477175c0d3d862c50a1dad0
+
+./.git/objects/29:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 22:00 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  179 Jun 19 22:00 583a544cc3aafb159e8a24df74e367d1ad7d0a
+
+./.git/objects/2b:
+total 352
+drwxr-xr-x   2 lkwasniewski lkwasniewski   4096 Jun 22 15:41 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski   4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 351880 Jun 22 15:41 52110bbfe8a496b9a708992858a07e1cdb9079
+
+./.git/objects/2d:
+total 28
+drwxr-xr-x   2 lkwasniewski lkwasniewski  4096 Jun 19 20:17 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski  4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 17017 Jun 19 20:17 f94b3493f05e68537eb24e6a873cb741d32dfd
+
+./.git/objects/2e:
+total 16
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 15:38 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  297 Jun 22 15:38 b92c8ef7e1b4a5619079b58dc10d04e010ccef
+-r--r--r--   1 lkwasniewski lkwasniewski  253 Jun 19 22:58 bcdba02d6f2709604831db0a92a64931e7828d
+
+./.git/objects/2f:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 12:00 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  179 Jun 29 12:00 3ed1f0bfb54c9ea124b65f15fa2c95e75ca084
+
+./.git/objects/31:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 20 23:58 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  278 Jun 22 15:38 b23b2d10ae2a6d82737673ec54fd6316286156
+
+./.git/objects/33:
+total 36
+drwxr-xr-x   2 lkwasniewski lkwasniewski  4096 Jun 20 23:58 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski  4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski   178 Jun 19 20:17 5840258b626aa1d619914faaa73e1cd4ebe728
+-r--r--r--   1 lkwasniewski lkwasniewski 15251 Jun 19 22:00 8b4faf391d691ca1e2929a03b9ef99307f7d48
+-r--r--r--   1 lkwasniewski lkwasniewski   248 Jun 19 21:05 8c9c647f408bb7c4dae03f9af375e36c105f8c
+-r--r--r--   1 lkwasniewski lkwasniewski   716 Jun 20 23:58 a6905266ceba39c6a647ca6da70ad4096dd4f3
+
+./.git/objects/34:
+total 16
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 21 00:04 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  716 Jun 21 00:04 16845d75ba12d1d8f7c51d87cdf57c162b8233
+-r--r--r--   1 lkwasniewski lkwasniewski  305 Jun 19 22:00 6a264419557a825292d3d849f40e0ccadfa15b
+
+./.git/objects/35:
+total 16
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:17 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 7987 Jun 19 20:17 0292405e6ba164aa31bf74d8a020bf1180a3f9
+
+./.git/objects/36:
+total 24
+drwxr-xr-x   2 lkwasniewski lkwasniewski  4096 Jun 19 20:17 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski  4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski   152 Jun 19 20:17 c9fa624e5890a6f77a61781f523c3be8188d30
+-r--r--r--   1 lkwasniewski lkwasniewski 11795 Jun 20 22:30 d3878f9b39025bb1b687a66a427a5d9031e2a0
+
+./.git/objects/38:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 15:38 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  716 Jun 22 15:38 f5adaf675c81febc391af2f64d6261489257c8
+
+./.git/objects/39:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 22:58 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  369 Jun 20 21:26 35d808b20f6b138d56617854a58db0a1855649
+
+./.git/objects/3a:
+total 16
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 11:44 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 2084 Jun 22 16:09 d1a36c5cae2b4d1f194d51d6e58c07f361f757
+-r--r--r--   1 lkwasniewski lkwasniewski  370 Jun 29 11:44 d6838e01f1e8f6cd11f4f0ef4d03e76ba7e688
+
+./.git/objects/3b:
+total 16
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 22:13 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  439 Jun 19 20:17 34b5152c9b80378af0d13bc8a5ff46fe0abfb3
+-r--r--r--   1 lkwasniewski lkwasniewski  369 Jun 19 22:13 717d663dda62f40d83b423d870916f6f1e66cf
+
+./.git/objects/3c:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 22:00 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  170 Jun 19 22:00 70388d09c7670a732b7a5baa3b2242d67165aa
+
+./.git/objects/3d:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 15:38 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  318 Jun 22 15:38 7e622af81ef45856eed32300bc0e56a29824b9
+
+./.git/objects/3f:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:17 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  651 Jun 19 20:17 d40960cc10413184c8df5e78f250a843603390
+
+./.git/objects/40:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 15:38 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  184 Jun 22 15:38 8b0132d92f7cedf5a35b3947933f4f0fb24cce
+
+./.git/objects/41:
+total 48
+drwxr-xr-x   2 lkwasniewski lkwasniewski  4096 Jun 20 23:58 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski  4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski   881 Jun 19 20:42 664da51bf82439cb6b8189acc1ecabf89c214e
+-r--r--r--   1 lkwasniewski lkwasniewski 31180 Jun 19 20:17 c93c5d28d1bf6594622bf12556546f27c82941
+-r--r--r--   1 lkwasniewski lkwasniewski   253 Jun 20 23:58 dbeb25ba9ea3938827b89470cb5c1eb459fa84
+
+./.git/objects/43:
+total 24
+drwxr-xr-x   2 lkwasniewski lkwasniewski  4096 Jun 19 20:17 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski  4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 12661 Jun 19 20:17 dfcab2ce23a261cdccab1df16da4a86fbad0a9
+
+./.git/objects/44:
+total 16
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 22:13 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  528 Jun 19 22:00 734e5d8bb7913523450b4b4361f2ad46818b6e
+-r--r--r--   1 lkwasniewski lkwasniewski  177 Jun 19 22:13 a24bc4e8297e73797563b8cb6141234df9027b
+
+./.git/objects/46:
+total 16
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 12:49 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  139 Jun 29 12:49 38bb48ea08f7462c98e80086c4e6d55df956c3
+-r--r--r--   1 lkwasniewski lkwasniewski  171 Jun 19 20:11 b3b7377f08a4d38af1afbe124e7f235df51c71
+
+./.git/objects/47:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 21 18:49 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  835 Jun 21 18:49 fd6327eb0d21ea543633a3dec31e365903dbc2
+
+./.git/objects/49:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 15:41 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  715 Jun 22 15:41 7c2209a653aee397852655bb3b3224cab04b58
+
+./.git/objects/4c:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 12:00 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  715 Jun 29 12:00 5d39a9661858c5097c2ed95071080fd315cd00
+
+./.git/objects/4e:
+total 24
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 22:00 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  848 Jun 19 22:00 4f0f0903398dbe0827b08a64796e6f59877263
+-r--r--r--   1 lkwasniewski lkwasniewski 9999 Jun 19 20:17 ffd1705a798cff791b0d445e4f5eb7c0ec4123
+
+./.git/objects/4f:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 21 00:25 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  370 Jun 21 00:25 ccea1abf6e56c88fa2c7e69e87bb8fb6480558
+
+./.git/objects/50:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:17 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 1046 Jun 19 20:17 ceec228b0b81f5908036f818fcc7b9a1ad3c9c
+
+./.git/objects/51:
+total 48
+drwxr-xr-x   2 lkwasniewski lkwasniewski  4096 Jun 19 22:13 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski  4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski    33 Jun 19 22:13 613d5dc2d28122ed03ba449e96c616e801f722
+-r--r--r--   1 lkwasniewski lkwasniewski 35517 Jun 19 22:13 e93a153a47396d63fd1186ef9b3365a9f44f8d
+
+./.git/objects/53:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 12:15 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  715 Jun 29 12:15 39abd87c4214a7e8847823b510538a33822efa
+
+./.git/objects/54:
+total 56
+drwxr-xr-x   2 lkwasniewski lkwasniewski  4096 Jun 22 15:38 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski  4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  2748 Jun 19 20:17 4457d72cec6ffe519e2f7cf99c6a33fb79becc
+-r--r--r--   1 lkwasniewski lkwasniewski   211 Jun 22 15:38 544d1aeccd7876f27d4700801a80d53aae07c8
+-r--r--r--   1 lkwasniewski lkwasniewski 38105 Jun 22 15:38 956dd6d6b2e4b1c850218e823be7ce162e9138
+
+./.git/objects/55:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:17 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 3271 Jun 19 20:17 15c3a53c537e18d9f4e43befda3027a3a4bc46
+
+./.git/objects/56:
+total 16
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 12:49 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 2266 Jun 29 12:49 08d42c2c8a957aaa6a4361efae1cd05c594036
+-r--r--r--   1 lkwasniewski lkwasniewski   51 Jun 21 18:49 f5404c4e6948be5d0ee12007f2778c842c33b6
+
+./.git/objects/59:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 20 23:58 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski   87 Jun 20 23:58 bebb50a63e68bb5b4b583290f56b2083792202
+
+./.git/objects/5a:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 15:41 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  165 Jun 22 15:41 0234ab5f6261249b065dd23f9f5e25ebd79b45
+
+./.git/objects/5b:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 21 18:49 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  850 Jun 21 18:49 224678301a54ccbcf78a2bed1da764aac5d5b5
+
+./.git/objects/5d:
+total 68
+drwxr-xr-x   2 lkwasniewski lkwasniewski  4096 Jun 29 13:16 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski  4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 50654 Jun 19 22:58 05ee98d0dc4a640e06339901aa4a8dc992382e
+-r--r--r--   1 lkwasniewski lkwasniewski    51 Jun 29 13:16 ae5e745f8fe15f8ecd9b62c7ae46840f11908f
+-r--r--r--   1 lkwasniewski lkwasniewski   297 Jun 20 23:58 e624905ef0a6333c261810434d00501cc7e819
+
+./.git/objects/60:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 20 22:30 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  742 Jun 20 22:30 fdd8c95c0648dfd25da910a8f42ba7a720a8a9
+
+./.git/objects/61:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 22:00 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  306 Jun 19 22:58 9f42d4a0e67d56c988e869965afe947802b1c2
+
+./.git/objects/63:
+total 40
+drwxr-xr-x   2 lkwasniewski lkwasniewski  4096 Jun 29 12:28 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski  4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski   370 Jun 29 12:28 0290c14b2bd258c67a66a3092e76471ca6ccec
+-r--r--r--   1 lkwasniewski lkwasniewski 26320 Jun 19 20:11 b68ab0ba98c667f515c52f08c0bbd5573d5330
+
+./.git/objects/66:
+total 16
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 15:38 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  178 Jun 19 20:17 58888e1449b4c342e11738666a84f310ea64b1
+-r--r--r--   1 lkwasniewski lkwasniewski  715 Jun 22 15:38 fc2821e7d639432fc025460fbacec9ec3e70fd
+
+./.git/objects/67:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 22:00 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  218 Jun 19 22:00 de5f964492928035d4f89236d0d1dea4022659
+
+./.git/objects/6c:
+total 32
+drwxr-xr-x   2 lkwasniewski lkwasniewski  4096 Jun 19 20:17 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski  4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 23643 Jun 19 20:17 356f3ae78d80010f865f61f2b1ea93494cc8c0
+
+./.git/objects/6d:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 12:00 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  370 Jun 29 12:00 39d821bb369c3a586288b6a6a6993e9f1a1908
+
+./.git/objects/6e:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 21:05 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  127 Jun 19 21:05 2f94babe400fed4d70dadb1d93dfd745e9cacd
+
+./.git/objects/6f:
+total 16
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 15:38 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  120 Jun 22 15:38 7daa747478f885fe5980451d9a2c29638f0f74
+-r--r--r--   1 lkwasniewski lkwasniewski 1955 Jun 19 22:58 8d7ad60d0036731cd8608c66da6661b4916db5
+
+./.git/objects/70:
+total 128
+drwxr-xr-x   2 lkwasniewski lkwasniewski   4096 Jun 22 15:42 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski   4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 117491 Jun 19 20:17 0bc5591c581d275a0b4d2ef403cec38f787569
+-r--r--r--   1 lkwasniewski lkwasniewski    911 Jun 22 15:42 fa99a14f3e2bef1f502b41d4ad6021c9092041
+
+./.git/objects/71:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 22:00 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  369 Jun 19 22:00 5c6c4669dd7a22026a059fd88aa4081614a3af
+
+./.git/objects/72:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:17 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  526 Jun 19 20:17 157ee3dd122c3da54844d88061238df4a28e42
+
+./.git/objects/75:
+total 16
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 20 22:30 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  253 Jun 20 22:30 47e7cdba0809f06afde8ac0e417928f23288dc
+-r--r--r--   1 lkwasniewski lkwasniewski 1097 Jun 19 20:11 945067d4d36fd070501f44fefeefbbb44f5eed
+
+./.git/objects/76:
+total 24
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 22:00 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 8210 Jun 22 15:38 8c8d481998551a7c2d6afe4450015fe5937d17
+-r--r--r--   1 lkwasniewski lkwasniewski  527 Jun 19 20:17 b27c6ab78300249053d4b6d41aa185ddd21959
+
+./.git/objects/78:
+total 20
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 12:15 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 1746 Jun 19 22:13 20688c555cdcd20e96273311d917efcdae1c22
+-r--r--r--   1 lkwasniewski lkwasniewski  172 Jun 29 12:15 20cf19a181036bcce32da8d4181796b3a844b5
+-r--r--r--   1 lkwasniewski lkwasniewski 3829 Jun 21 18:49 648a1b770d008a596357699e6e9e2b19cb02b0
+
+./.git/objects/79:
+total 28
+drwxr-xr-x   2 lkwasniewski lkwasniewski  4096 Jun 20 22:30 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski  4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 15252 Jun 19 22:58 44cb739527d00db8203150b5d52aace59acd51
+-r--r--r--   1 lkwasniewski lkwasniewski   452 Jun 20 22:30 c19e10451deda0455228a7ff3ef0f544c152e4
+
+./.git/objects/7a:
+total 48
+drwxr-xr-x   2 lkwasniewski lkwasniewski  4096 Jun 19 22:13 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski  4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 35622 Jun 19 22:13 9386fedbe62cc37bc6fd34540b0b2fc5774f94
+-r--r--r--   1 lkwasniewski lkwasniewski    41 Jun 19 20:17 b2f7a344103490c0703f9ff9879c3270322243
+
+./.git/objects/7b:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 21 18:49 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  140 Jun 21 18:49 094f1ace3d02945d99fd68ebc197e0fec68977
+
+./.git/objects/7c:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:17 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  992 Jun 19 20:17 6999d128324c7eb92d800e7e1874947addfb0e
+
+./.git/objects/7d:
+total 64
+drwxr-xr-x   2 lkwasniewski lkwasniewski  4096 Jun 19 20:17 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski  4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 55506 Jun 19 20:17 f63f6dbeb65bdcf8019559ab0b637bc0a9f44d
+
+./.git/objects/7e:
+total 16
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:11 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  592 Jun 19 20:11 99661fd94ece589fd0bb64876f12159340ecf0
+-r--r--r--   1 lkwasniewski lkwasniewski  451 Jun 19 20:11 d470a38d2f0635efa75f1c52f6a3bc7e213bc5
+
+./.git/objects/7f:
+total 88
+drwxr-xr-x   2 lkwasniewski lkwasniewski  4096 Jun 29 13:16 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski  4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  1003 Jun 29 13:16 0be7e59c303ec235f47d8c26050eef95d10bc5
+-r--r--r--   1 lkwasniewski lkwasniewski 76651 Jun 19 20:11 7daa576b287348e6c7aa9ba15a66ea9b28c6e4
+
+./.git/objects/80:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 21 00:25 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 3861 Jun 21 00:25 1b3bb957e5c6bbf581bfd6eb709db666832710
+
+./.git/objects/81:
+total 28
+drwxr-xr-x   2 lkwasniewski lkwasniewski  4096 Jun 22 15:38 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski  4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski   716 Jun 21 18:49 2c9616514563eda8f194c9eb9928e4c74133a5
+-r--r--r--   1 lkwasniewski lkwasniewski 14198 Jun 22 15:38 fdd6e5370bd9ad5693178bb3439cf6c4d35046
+
+./.git/objects/82:
+total 36
+drwxr-xr-x   2 lkwasniewski lkwasniewski  4096 Jun 21 18:49 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski  4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski   168 Jun 21 18:49 1671cc9e53c12923b2de4905db9e9f850f6ff8
+-r--r--r--   1 lkwasniewski lkwasniewski 24100 Jun 19 20:17 8e0967fe1f5b9038c6b4618750440e50d54c48
+
+./.git/objects/84:
+total 20
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 20 23:58 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 7919 Jun 22 15:38 3cc9186b30bab2847acbff1b68d03184f8d53c
+-r--r--r--   1 lkwasniewski lkwasniewski  174 Jun 20 22:30 f3df33371ca51946380d28750100b7ebc2d55f
+
+./.git/objects/85:
+total 44
+drwxr-xr-x   2 lkwasniewski lkwasniewski  4096 Jun 29 12:40 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski  4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  2276 Jun 29 12:40 0c17fc7acef2fee13217995f5f7012842e799a
+-r--r--r--   1 lkwasniewski lkwasniewski 24790 Jun 19 20:17 4c62c95deab84497fe2ec19a13bacf2abb8068
+-r--r--r--   1 lkwasniewski lkwasniewski   269 Jun 19 22:00 67876151f656ccf3cad2a9d593e6773d20c14b
+
+./.git/objects/86:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 22:13 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  820 Jun 19 22:13 40d661091c64b644f21726d2f6cef024b8001d
+
+./.git/objects/89:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 20 21:26 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  298 Jun 20 21:26 d323e55f87dc49872b5bf3e2ddfb9f6d91a1ed
+
+./.git/objects/8a:
+total 16
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 13:16 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  271 Jun 22 15:38 054442d00862d6ed9dd095ac9a85db7c7263f7
+-r--r--r--   1 lkwasniewski lkwasniewski  715 Jun 29 13:16 54157f303a2cd10a797b4103a40d4d915be733
+
+./.git/objects/8b:
+total 24
+drwxr-xr-x   2 lkwasniewski lkwasniewski  4096 Jun 19 22:13 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski  4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 15252 Jun 19 22:13 bdbb88b589902a33c320e8e7965a65a1cf950a
+
+./.git/objects/8c:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:42 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  971 Jun 19 20:42 f3f4b744752ec7f28eb9eff0827003e1c8e0ac
+
+./.git/objects/8d:
+total 20
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 21 18:49 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  139 Jun 19 20:17 19861a68b44d1900d8b4509440260a6e184bec
+-r--r--r--   1 lkwasniewski lkwasniewski  372 Jun 19 20:17 33a7f0e774e5bd4a0cf3d927eacbf2bb6cedeb
+-r--r--r--   1 lkwasniewski lkwasniewski 3820 Jun 21 18:49 395b5bb3dc4b78d769bd5b9bce4d01b70d34a0
+
+./.git/objects/8e:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 12:49 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 1022 Jun 29 12:49 c7097cb80033504ab79c64319c70fa8182605c
+
+./.git/objects/8f:
+total 28
+drwxr-xr-x   2 lkwasniewski lkwasniewski  4096 Jun 20 22:30 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski  4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 14199 Jun 20 22:30 b27e05b2891ba61aa528693784650bb458aee6
+-r--r--r--   1 lkwasniewski lkwasniewski  1059 Jun 19 20:17 d306008babbc9e61d7867ae41a7def83282c4b
+
+./.git/objects/90:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 12:49 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  327 Jun 29 12:49 952e86edb2832cdb7c1519dea1d174fe660737
+
+./.git/objects/92:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:42 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  410 Jun 19 20:42 efa609ce1bb9a486e4684320a16d2e9090ce6f
+
+./.git/objects/93:
+total 76
+drwxr-xr-x   2 lkwasniewski lkwasniewski  4096 Jun 22 15:41 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski  4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski   187 Jun 22 15:41 42c3fa38d59bb6f5e4cc83dbde6ebd2fdbb756
+-r--r--r--   1 lkwasniewski lkwasniewski 63304 Jun 19 20:17 500d9bc9b9fec7b2cc8d40f067d3905f8e99be
+
+./.git/objects/96:
+total 20
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 15:42 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski   87 Jun 19 22:00 06dfc94fea37830f4ddfa5ca263e7a39ef8876
+-r--r--r--   1 lkwasniewski lkwasniewski  901 Jun 22 15:42 47e0b4ea183fba26c277ed0dc9446e35f612f6
+-r--r--r--   1 lkwasniewski lkwasniewski  369 Jun 19 20:42 e8576bf9ff09f6b6a1393f8ba27edbdc4fc437
+
+./.git/objects/97:
+total 16
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 12:28 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 3857 Jun 21 00:04 ce7cf442e6772cadba99c17446b6b5581bf1c2
+-r--r--r--   1 lkwasniewski lkwasniewski  206 Jun 29 12:28 e9c62a1a7ac2517c4ff60077fd9fe5c2088e64
+
+./.git/objects/98:
+total 20
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 15:42 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  337 Jun 20 21:26 16ba231b1b823ea1df9a85c81d2f10b223d63f
+-r--r--r--   1 lkwasniewski lkwasniewski  913 Jun 22 15:42 95a83d34423017edabd8e58cd036b3a596aae4
+-r--r--r--   1 lkwasniewski lkwasniewski  136 Jun 19 20:17 9b42fc212c732785e0bb9610b31e19852f4c2c
+
+./.git/objects/9a:
+total 16
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 20 22:30 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  948 Jun 19 20:17 97d3454aa67e860cc27f26cbb77ed3fd553a52
+-r--r--r--   1 lkwasniewski lkwasniewski  127 Jun 20 22:30 a765d5aa38b5947e144115249230f4c8cc3073
+
+./.git/objects/9c:
+total 20
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 20 23:58 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  211 Jun 20 23:58 3e251a64b6fc5d1a9c99f8126a587d8a9b89c4
+-r--r--r--   1 lkwasniewski lkwasniewski  323 Jun 22 15:38 6248d100cf286056402a4fd2623f71278b1583
+-r--r--r--   1 lkwasniewski lkwasniewski  590 Jun 19 20:17 db194fefb542ae5520745e4c157d905736e715
+
+./.git/objects/9d:
+total 100
+drwxr-xr-x   2 lkwasniewski lkwasniewski  4096 Jun 20 23:58 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski  4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 86949 Jun 19 22:00 c8e4d6c86b699d793dffcd97ea3536e9374458
+-r--r--r--   1 lkwasniewski lkwasniewski   370 Jun 20 23:58 f79b043676500910250ba9a8b435a262d588c9
+
+./.git/objects/9e:
+total 20
+drwxr-xr-x   2 lkwasniewski lkwasniewski  4096 Jun 19 20:11 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski  4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 10286 Jun 19 20:11 6a36214b9dcd6e9a29dd1199cf0496782a2745
+
+./.git/objects/9f:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 20 23:58 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  185 Jun 20 23:58 002df07c7d768fd7d01fc20a0aa660f2c06ea6
+
+./.git/objects/a0:
+total 44
+drwxr-xr-x   2 lkwasniewski lkwasniewski  4096 Jun 19 22:00 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski  4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 35701 Jun 19 22:00 a0363e83c6cdeb880e60b7f02b555dbd9389ed
+
+./.git/objects/a2:
+total 5056
+drwxr-xr-x   2 lkwasniewski lkwasniewski    4096 Jun 19 20:11 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski    4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 5166998 Jun 19 20:11 fe2ef23179a6f8c57536b57b20326582052b87
+
+./.git/objects/a3:
+total 32
+drwxr-xr-x   2 lkwasniewski lkwasniewski  4096 Jun 19 20:17 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski  4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski   300 Jun 22 15:38 5fd1ec7722580c50cf42d3bcdc88595e8aa4ca
+-r--r--r--   1 lkwasniewski lkwasniewski 19572 Jun 19 20:17 a2085131f4dc50204fd5387191569cb0f63bdc
+
+./.git/objects/a4:
+total 5056
+drwxr-xr-x   2 lkwasniewski lkwasniewski    4096 Jun 29 13:06 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski    4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski     139 Jun 29 13:06 d3be03248b5e8191c7f385daf3f3db5b85c6c9
+-r--r--r--   1 lkwasniewski lkwasniewski 5163519 Jun 19 20:17 e037ccd65b56b2e5a3341bad879d9ffe6ceb3d
+
+./.git/objects/a5:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 21 00:16 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  253 Jun 21 00:16 f9ab5acd8de7a2bba04a629699cb92ba1d20ca
+
+./.git/objects/a7:
+total 16
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:42 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski   62 Jun 19 20:42 7767225fcdb9e28b7bddbf0194e783e3715d5c
+-r--r--r--   1 lkwasniewski lkwasniewski  179 Jun 19 20:42 a3732ceec07330940600cc779c37e00d7c47c4
+
+./.git/objects/a8:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 12:40 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  715 Jun 29 12:40 d49c2b21f20ab15fede97684f012b5ae6a239d
+
+./.git/objects/aa:
+total 84
+drwxr-xr-x   2 lkwasniewski lkwasniewski  4096 Jun 22 15:38 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski  4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 71580 Jun 22 15:38 3abe8965a4e3794c61d338fee34a8f57219f81
+-r--r--r--   1 lkwasniewski lkwasniewski  3815 Jun 19 22:00 602ca4b1f59f5ecc63b2282f5859a42d57a7e1
+
+./.git/objects/af:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 22:58 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  179 Jun 19 22:58 4941c577789a77e980bb082e18e3efc19013a6
+
+./.git/objects/b1:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:17 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski   86 Jun 19 20:17 067417efe01690a0d49ec4dadb24c39bb30911
+
+./.git/objects/b2:
+total 232
+drwxr-xr-x   2 lkwasniewski lkwasniewski   4096 Jun 20 22:30 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski   4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski    510 Jun 20 22:30 1dceea857636b66e0150279b57f1d4662c9820
+-r--r--r--   1 lkwasniewski lkwasniewski 217251 Jun 19 20:17 36fc0fc179b3b1c03093efce62d189b23513f9
+-r--r--r--   1 lkwasniewski lkwasniewski    120 Jun 20 22:30 ae3c91124d457533512fe5ebe0565782f9facc
+
+./.git/objects/b7:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:11 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  186 Jun 19 20:11 b855e8698a43e1f54b9931ea2c36aee57761d8
+
+./.git/objects/b8:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:17 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  192 Jun 19 20:17 61aa8c8c6fc1ea8dbded8d1d45ce9a6d519cd3
+
+./.git/objects/ba:
+total 16
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 21 00:04 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  715 Jun 20 22:30 1035f39e9630961042f770c64005ad6e1858ab
+-r--r--r--   1 lkwasniewski lkwasniewski 1017 Jun 21 00:04 54bbea79b07a21556df62920706f0817a62fa8
+
+./.git/objects/bb:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 20 21:26 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  196 Jun 20 21:26 1e03f1caf8e5834f4ae77aedebe525b5ae8a5e
+
+./.git/objects/bd:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 22:58 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski   87 Jun 20 22:30 128e8e5a09146196e4830618c3befaf85bbb2c
+
+./.git/objects/be:
+total 108
+drwxr-xr-x   2 lkwasniewski lkwasniewski  4096 Jun 21 00:04 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski  4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski   120 Jun 19 20:11 05bd42c93fe261532ac138997c2aa27097b519
+-r--r--r--   1 lkwasniewski lkwasniewski    87 Jun 19 20:17 32e872fb35ab19eec369e74207019c31525be4
+-r--r--r--   1 lkwasniewski lkwasniewski 29103 Jun 19 20:17 422e5cf57aa25daaa95831faae1df0d1bc7fba
+-r--r--r--   1 lkwasniewski lkwasniewski 53358 Jun 19 20:17 e01970f34aae588d91aedfa9b0db1918e76d6f
+-r--r--r--   1 lkwasniewski lkwasniewski   370 Jun 21 00:04 e4bbfc912ae885978ac5e19db3263d5aa37d9f
+
+./.git/objects/c1:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 15:42 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  907 Jun 22 15:42 b2b7a4739aed06b9d137fac947b8c532883cec
+
+./.git/objects/c4:
+total 20
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 22:00 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 3083 Jun 22 15:38 31fadc9d1004ab237ab5798fb79fd9548310f3
+-r--r--r--   1 lkwasniewski lkwasniewski  175 Jun 19 20:17 b7f2e02f05b66ae1e35e107b8f1a7618e2878d
+-r--r--r--   1 lkwasniewski lkwasniewski  849 Jun 19 21:05 c1aef2e79329238a195c8ddb5a842f33d2e752
+
+./.git/objects/c5:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 21:05 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  165 Jun 19 21:05 a053a1e4a45e3f880849c763c0fc0c7c7e95c9
+
+./.git/objects/c6:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 16:09 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  715 Jun 22 16:09 4c75f4387c63c2848636408930a1af18fcadce
+
+./.git/objects/c7:
+total 32
+drwxr-xr-x   2 lkwasniewski lkwasniewski  4096 Jun 20 22:30 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski  4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski   298 Jun 20 22:30 3b4829dc0e2d104c7db57c757d4aaf41331df5
+-r--r--r--   1 lkwasniewski lkwasniewski 20448 Jun 19 20:17 6648a526f4f68b7ffcbb0f12889c18dfdd8575
+
+./.git/objects/c8:
+total 16
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 15:38 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski   86 Jun 22 15:38 0723e45948edac5e8bfb92d9d053bbc6002a6f
+-r--r--r--   1 lkwasniewski lkwasniewski  127 Jun 19 20:17 fff3d17ec19ec22a976c47b536022ce66a36ab
+
+./.git/objects/c9:
+total 28
+drwxr-xr-x   2 lkwasniewski lkwasniewski  4096 Jun 19 20:17 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski  4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 13106 Jun 19 20:11 748c77caad52c232e27e87546d32f44b85eefb
+-r--r--r--   1 lkwasniewski lkwasniewski   154 Jun 19 20:17 eb3336a66d19081b7d716f86f9c3127327e496
+
+./.git/objects/ca:
+total 24
+drwxr-xr-x   2 lkwasniewski lkwasniewski  4096 Jun 19 20:17 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski  4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 15603 Jun 19 20:17 3d8798ce0c0a9fe16cfb87cad990047e844206
+
+./.git/objects/cc:
+total 16
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 22:13 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  298 Jun 19 22:13 5745b3a1ab7a70225e33b68179341849034219
+-r--r--r--   1 lkwasniewski lkwasniewski  956 Jun 19 20:17 ef820bc0a61fd6922370f70486afa0f0dc1494
+
+./.git/objects/cd:
+total 112
+drwxr-xr-x   2 lkwasniewski lkwasniewski  4096 Jun 22 15:41 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski  4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski   162 Jun 22 15:41 0bf1ab2af987e0e59d473793079363ac4856c9
+-r--r--r--   1 lkwasniewski lkwasniewski    51 Jun 19 20:17 3e84d9dd0e048cd02b43351d170e66a7a92ba7
+-r--r--r--   1 lkwasniewski lkwasniewski   180 Jun 21 00:04 82506504ae22e2e2e1955b260b87f28efd64f2
+-r--r--r--   1 lkwasniewski lkwasniewski 88081 Jun 19 22:58 d202cc81c77cfe17dba2f73f8fd7996186d29f
+-r--r--r--   1 lkwasniewski lkwasniewski   177 Jun 22 15:38 e8bc6794559a374a513b4c026cd31f9a8fd39f
+
+./.git/objects/ce:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 15:38 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  842 Jun 22 15:38 eac75aa35280fabdfababc7330dd12e925dfca
+
+./.git/objects/cf:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 22:00 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  105 Jun 19 22:00 26a0fc68da935f2df17d3f6ca00a37f7b0b337
+
+./.git/objects/d1:
+total 16
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 21:05 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 1840 Jun 19 21:05 79240859fdb8ae9a09b2753465299058e20f14
+-r--r--r--   1 lkwasniewski lkwasniewski  430 Jun 19 20:42 d0aeb7a32471b8ff9b711636a4f5f0961aafac
+
+./.git/objects/d2:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:17 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  714 Jun 19 20:17 03d4fd5fa4a0de5b97cbae9eb7712df892320f
+
+./.git/objects/d6:
+total 16
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 12:15 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 1056 Jun 19 20:17 1478ddfeebc3d891f3e024f4ddc85793167363
+-r--r--r--   1 lkwasniewski lkwasniewski 2235 Jun 29 12:15 8b8a8d405c049ce740f42f9c008c5c657528d3
+
+./.git/objects/d8:
+total 16
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 15:38 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 2763 Jun 22 15:38 4507731a2a67f1acf201bede168c935bd13247
+-r--r--r--   1 lkwasniewski lkwasniewski 1021 Jun 20 23:58 641a3855783266feb32529fb13804cede41cb5
+
+./.git/objects/d9:
+total 16
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 12:40 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  197 Jun 29 12:40 1000c534c5f0de4654355fb18581253e2b8188
+-r--r--r--   1 lkwasniewski lkwasniewski  211 Jun 19 22:13 78a2f6ddef2d1111f74bcb274de5d6145a0323
+
+./.git/objects/da:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 15:38 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  716 Jun 22 15:38 c8ec86620b74349acf903bfcf991b9c1a0c3fa
+
+./.git/objects/db:
+total 168
+drwxr-xr-x   2 lkwasniewski lkwasniewski   4096 Jun 29 12:28 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski   4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  10489 Jun 22 15:38 6f317685a4668bc0529b16ea1544022e780002
+-r--r--r--   1 lkwasniewski lkwasniewski 144234 Jun 19 21:05 ccb22a6c120d287bd6e97934fe4e9e8d607293
+-r--r--r--   1 lkwasniewski lkwasniewski   2246 Jun 29 12:28 d239d0b204c39cf6c72e37d257455cb6ba4c09
+
+./.git/objects/dd:
+total 16
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 13:06 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski   52 Jun 29 13:06 4226076facbd734633995f4ca3e8fd344334df
+-r--r--r--   1 lkwasniewski lkwasniewski  120 Jun 22 15:38 ff3a526583e176e608c7c10d46c720a2cb516f
+
+./.git/objects/de:
+total 44
+drwxr-xr-x   2 lkwasniewski lkwasniewski  4096 Jun 19 22:00 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski  4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 35217 Jun 22 15:38 b967e89a4e9da59aa39573b4a6851bc160fbb7
+
+./.git/objects/df:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:11 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  372 Jun 19 20:11 9a4e443a063c80c7ba8684f352ae380d80c802
+
+./.git/objects/e0:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 15:38 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  211 Jun 22 15:38 c5746d7d9b2c580b8625ee58aca1c6bae5931d
+
+./.git/objects/e1:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 20 22:30 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  173 Jun 20 22:30 daa2a8db4200cce4b0805fbc078b0a41a60715
+
+./.git/objects/e2:
+total 16
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 15:42 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  298 Jun 19 22:58 2ef506be42ec00936211731e591cb671498aba
+-r--r--r--   1 lkwasniewski lkwasniewski  908 Jun 22 15:42 db02a69e924ca16a282b7bc100a7d3f76ea304
+
+./.git/objects/e4:
+total 20
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 13:06 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 2082 Jun 29 11:44 0c7eb02d50e12aca117896f9e57c731434e746
+-r--r--r--   1 lkwasniewski lkwasniewski  715 Jun 29 12:28 74c1324f8b14716d10be5ac04b680be6fe90fb
+-r--r--r--   1 lkwasniewski lkwasniewski 1006 Jun 29 13:06 c1b488745884eaf0ec48824459f280df198dc3
+
+./.git/objects/e5:
+total 92
+drwxr-xr-x   2 lkwasniewski lkwasniewski  4096 Jun 22 15:41 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski  4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 76944 Jun 19 20:17 387b5578e8985827660a93c0a884cd5fe476e1
+-r--r--r--   1 lkwasniewski lkwasniewski   180 Jun 21 00:16 936a8b2e37f55c618efe56a6f2443787daaa73
+-r--r--r--   1 lkwasniewski lkwasniewski   715 Jun 22 15:41 e0e8779a75b86b3eec56980c789dfac4e1f687
+
+./.git/objects/e7:
+total 20
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 20 21:26 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 1697 Jun 19 22:00 142491ea42dbf80708d4af9306b24da05e0864
+-r--r--r--   1 lkwasniewski lkwasniewski  211 Jun 20 22:30 a1ac8d2a72aee52284ed193e7a060787d59511
+-r--r--r--   1 lkwasniewski lkwasniewski  818 Jun 20 21:26 e2fb4d3001159918d90b9a19e880a3c2efc7a1
+
+./.git/objects/e9:
+total 28
+drwxr-xr-x   2 lkwasniewski lkwasniewski  4096 Jun 21 00:25 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski  4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 14197 Jun 20 23:58 ee0a3f8642dd4ee29c2cc53d204426507d1981
+-r--r--r--   1 lkwasniewski lkwasniewski   716 Jun 21 00:25 fb85e62530bdcb1319f00e0216860af23c1547
+
+./.git/objects/ea:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:17 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 1867 Jun 19 20:17 a78f5f74bf7c30ced64e03da5ee94baf00c013
+
+./.git/objects/eb:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 20 23:58 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  174 Jun 22 15:38 78c26202b6c85d1bb924f5dddbb56f7c83bf6a
+
+./.git/objects/ed:
+total 16
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 11:44 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  905 Jun 22 15:42 605da5a59b10a3c6e0965183366dd0ed461923
+-r--r--r--   1 lkwasniewski lkwasniewski  175 Jun 29 11:44 9d939b081a5e4544acad20d033011b76b59dd5
+
+./.git/objects/ee:
+total 156
+drwxr-xr-x   2 lkwasniewski lkwasniewski   4096 Jun 19 22:58 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski   4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 148506 Jun 19 22:58 643f697167d9358fdd90ed6de3961538bcbfb7
+
+./.git/objects/ef:
+total 216
+drwxr-xr-x   2 lkwasniewski lkwasniewski   4096 Jun 22 15:38 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski   4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski    989 Jun 21 18:49 70585a4fd91de5f6af2845f4de0f4b68b9b526
+-r--r--r--   1 lkwasniewski lkwasniewski 205612 Jun 22 15:38 a8816f8e028c4fad57e12cd1be049a83c06386
+
+./.git/objects/f1:
+total 20
+drwxr-xr-x   2 lkwasniewski lkwasniewski  4096 Jun 20 23:58 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski  4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 10756 Jun 22 15:38 34d0650a33feaddfb11495b85aa8e80a881d37
+
+./.git/objects/f2:
+total 36
+drwxr-xr-x   2 lkwasniewski lkwasniewski  4096 Jun 29 11:44 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski  4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski   715 Jun 29 11:44 5ba21f0c82f24feb06df7be60723d71f6cc51f
+-r--r--r--   1 lkwasniewski lkwasniewski 24486 Jun 19 20:17 bf6fb624664f64fbb2ff84bc618ad7d7ff6780
+
+./.git/objects/f3:
+total 44
+drwxr-xr-x   2 lkwasniewski lkwasniewski  4096 Jun 19 22:58 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski  4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 35505 Jun 19 22:58 9436ddc35d971d6105da4196392f8ff7621fa0
+
+./.git/objects/f6:
+total 16
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:17 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  297 Jun 19 20:17 1e9e80056ec683c0c0ec0c0c20088fe8a5b1d7
+-r--r--r--   1 lkwasniewski lkwasniewski 3784 Jun 19 20:11 d275fd8fc8bb39b769eaaf963fe248186a6558
+
+./.git/objects/f7:
+total 36
+drwxr-xr-x   2 lkwasniewski lkwasniewski  4096 Jun 29 12:49 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski  4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 12748 Jun 19 20:11 05412e6dd0487365067a07357f08266ef40577
+-r--r--r--   1 lkwasniewski lkwasniewski    87 Jun 19 22:13 105d246218d423cd8fecab2a6f3397a2efecfe
+-r--r--r--   1 lkwasniewski lkwasniewski    51 Jun 29 12:49 175a1b1aa1479e4dd8d12eae57ccc3d87dbe62
+-r--r--r--   1 lkwasniewski lkwasniewski   151 Jun 19 20:17 ac24f8fbe60eef9582d78262d3a409b80894e3
+
+./.git/objects/f8:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 22 15:38 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  839 Jun 22 15:38 5ac9e0e394a9c1f75b2b0fb71cb36bb10d0be6
+
+./.git/objects/f9:
+total 28
+drwxr-xr-x   2 lkwasniewski lkwasniewski  4096 Jun 20 21:26 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski  4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski 14202 Jun 20 21:26 17f682a5122581f81e16350e13b8da2874558f
+-r--r--r--   1 lkwasniewski lkwasniewski   369 Jun 19 20:11 f87cdef76bcf7bca7dbbd40bd2f700780ea462
+
+./.git/objects/fa:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:17 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski   62 Jun 19 20:17 b99d1e5fe2021919b9d5a5ea808044633a4e29
+
+./.git/objects/fb:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 21 18:49 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  716 Jun 21 18:49 8676a7b38b5d4a9ca585a2a2ace53f9225d765
+
+./.git/objects/fc:
+total 20
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 13:06 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  715 Jun 29 13:06 0f5dcca039d8ba6fd3423cbed5555f884c8851
+-r--r--r--   1 lkwasniewski lkwasniewski  421 Jun 19 20:17 17d45e32f8d72fbce64001f1c56e066d91d6d3
+-r--r--r--   1 lkwasniewski lkwasniewski  818 Jun 19 22:58 e4bed7a66c8b19100abb8bede075c2e3d0e28c
+
+./.git/objects/fd:
+total 16
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 13:06 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  190 Jun 21 00:25 20831537a02ec43e8456eb815f85e244b87497
+-r--r--r--   1 lkwasniewski lkwasniewski  179 Jun 29 13:06 ffe2411cdd29f260487fb3cc8dd53d5cfe07ec
+
+./.git/objects/fe:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 29 12:49 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  369 Jun 29 12:49 44118e536ba9cb2b639b72478a827a308fa6dd
+
+./.git/objects/ff:
+total 12
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 20:11 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski  159 Jun 19 20:11 1285f1bee573ef0c63b8921a7c5039a852dc0f
+
+./.git/objects/info:
+total 8
+drwxr-xr-x   2 lkwasniewski lkwasniewski 4096 Jun 19 12:44 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski 4096 Jun 29 13:16 ..
+
+./.git/objects/pack:
+total 288
+drwxr-xr-x   2 lkwasniewski lkwasniewski   4096 Jun 19 12:44 .
+drwxr-xr-x 178 lkwasniewski lkwasniewski   4096 Jun 29 13:16 ..
+-r--r--r--   1 lkwasniewski lkwasniewski   4320 Jun 19 12:44 pack-3ff49a08bf7725716dc9c6acab275702cbbe477e.idx
+-r--r--r--   1 lkwasniewski lkwasniewski 276296 Jun 20 21:26 pack-3ff49a08bf7725716dc9c6acab275702cbbe477e.pack
+
+./.git/refs:
+total 20
+drwxr-xr-x 5 lkwasniewski lkwasniewski 4096 Jun 19 12:44 .
+drwxr-xr-x 8 lkwasniewski lkwasniewski 4096 Jun 29 13:38 ..
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 29 13:16 heads
+drwxr-xr-x 3 lkwasniewski lkwasniewski 4096 Jun 19 12:44 remotes
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 12:44 tags
+
+./.git/refs/heads:
+total 20
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 29 13:16 .
+drwxr-xr-x 5 lkwasniewski lkwasniewski 4096 Jun 19 12:44 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski   41 Jun 29 13:16 dev
+-rw-r--r-- 1 lkwasniewski lkwasniewski   41 Jun 19 12:45 Les
+-rw-r--r-- 1 lkwasniewski lkwasniewski   41 Jun 19 12:44 main
+
+./.git/refs/remotes:
+total 12
+drwxr-xr-x 3 lkwasniewski lkwasniewski 4096 Jun 19 12:44 .
+drwxr-xr-x 5 lkwasniewski lkwasniewski 4096 Jun 19 12:44 ..
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 29 13:16 origin
+
+./.git/refs/remotes/origin:
+total 20
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 29 13:16 .
+drwxr-xr-x 3 lkwasniewski lkwasniewski 4096 Jun 19 12:44 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski   41 Jun 29 13:16 dev
+-rw-r--r-- 1 lkwasniewski lkwasniewski   30 Jun 19 12:44 HEAD
+-rw-r--r-- 1 lkwasniewski lkwasniewski   41 Jun 22 15:42 main
+
+./.git/refs/tags:
+total 8
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 12:44 .
+drwxr-xr-x 5 lkwasniewski lkwasniewski 4096 Jun 19 12:44 ..
+
+./.github:
+total 12
+drwxr-xr-x  3 lkwasniewski lkwasniewski 4096 Jun 19 12:45 .
+drwxr-xr-x 14 lkwasniewski lkwasniewski 4096 Jun 29 13:49 ..
+drwxr-xr-x  2 lkwasniewski lkwasniewski 4096 Jun 29 13:38 workflows
+
+./.github/workflows:
+total 20
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 29 13:38 .
+drwxr-xr-x 3 lkwasniewski lkwasniewski 4096 Jun 19 12:45 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski  582 Jun 29 12:43 lint-code.yml
+-rw-r--r-- 1 lkwasniewski lkwasniewski 3331 Jun 29 13:15 predict_on_model_change.yml
+-rw-r--r-- 1 lkwasniewski lkwasniewski 2680 Jun 29 13:38 retrain_on_change.yml
+
+./models:
+total 156
+drwxr-xr-x  2 lkwasniewski lkwasniewski  4096 Jun 22 15:41 .
+drwxr-xr-x 14 lkwasniewski lkwasniewski  4096 Jun 29 13:49 ..
+-rw-r--r--  1 lkwasniewski lkwasniewski   147 Mar 30 18:41 best_params.pkl
+-rw-r--r--  1 lkwasniewski lkwasniewski 27152 Jun 22 15:41 catboost_model_diabetes.cbm
+-rw-r--r--  1 lkwasniewski lkwasniewski 16445 Jun 22 15:36 cv_results.csv
+-rw-r--r--  1 lkwasniewski lkwasniewski  6732 Jun 22 15:36 estimator.pkl
+-rw-r--r--  1 lkwasniewski lkwasniewski     0 Jun 19 12:45 .gitkeep
+-rw-r--r--  1 lkwasniewski lkwasniewski   295 Jun 22 15:36 model_params.pkl
+-rw-r--r--  1 lkwasniewski lkwasniewski 16679 Jun 22 15:36 preds.csv
+-rw-r--r--  1 lkwasniewski lkwasniewski 61672 Jun 22 15:36 udc.pkl
+
+./notebooks:
+total 1876
+drwxr-xr-x  4 lkwasniewski lkwasniewski    4096 Jun 22 15:41 .
+drwxr-xr-x 14 lkwasniewski lkwasniewski    4096 Jun 29 13:49 ..
+-rw-r--r--  1 lkwasniewski lkwasniewski 1794809 Jun 22 15:41 02-diabetes-MLflow.ipynb
+drwxr-xr-x  9 lkwasniewski lkwasniewski    4096 Jun 22 15:36 catboost_info
+-rw-r--r--  1 lkwasniewski lkwasniewski     439 Jun 22 15:36 diabetes_test.csv
+-rw-r--r--  1 lkwasniewski lkwasniewski       0 Mar 30 18:41 .gitkeep
+-rw-r--r--  1 lkwasniewski lkwasniewski  102394 Jun 19 12:45 MLClassification.ipynb
+drwxr-xr-x  8 lkwasniewski lkwasniewski    4096 Jun 19 22:40 mlruns
+
+./notebooks/catboost_info:
+total 56
+drwxr-xr-x 9 lkwasniewski lkwasniewski  4096 Jun 22 15:36 .
+drwxr-xr-x 4 lkwasniewski lkwasniewski  4096 Jun 22 15:41 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski 10306 Jun 22 15:36 catboost_training.json
+drwxr-xr-x 4 lkwasniewski lkwasniewski  4096 Jun 22 15:36 fold-0
+drwxr-xr-x 4 lkwasniewski lkwasniewski  4096 Jun 22 15:36 fold-1
+drwxr-xr-x 4 lkwasniewski lkwasniewski  4096 Jun 22 15:36 fold-2
+drwxr-xr-x 4 lkwasniewski lkwasniewski  4096 Jun 22 15:36 fold-3
+drwxr-xr-x 4 lkwasniewski lkwasniewski  4096 Jun 22 15:36 fold-4
+drwxr-xr-x 2 lkwasniewski lkwasniewski  4096 Jun 19 20:01 learn
+-rw-r--r-- 1 lkwasniewski lkwasniewski  1611 Jun 22 15:36 learn_error.tsv
+-rw-r--r-- 1 lkwasniewski lkwasniewski   883 Jun 22 15:36 time_left.tsv
+drwxr-xr-x 2 lkwasniewski lkwasniewski  4096 Jun 22 15:36 tmp
+
+./notebooks/catboost_info/fold-0:
+total 44
+drwxr-xr-x 4 lkwasniewski lkwasniewski  4096 Jun 22 15:36 .
+drwxr-xr-x 9 lkwasniewski lkwasniewski  4096 Jun 22 15:36 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski 14913 Jun 22 15:36 catboost_training.json
+drwxr-xr-x 2 lkwasniewski lkwasniewski  4096 Jun 19 21:29 learn
+-rw-r--r-- 1 lkwasniewski lkwasniewski  2895 Jun 22 15:36 learn_error.tsv
+drwxr-xr-x 2 lkwasniewski lkwasniewski  4096 Jun 19 21:29 test
+-rw-r--r-- 1 lkwasniewski lkwasniewski  2834 Jun 22 15:36 test_error.tsv
+-rw-r--r-- 1 lkwasniewski lkwasniewski  1104 Jun 22 15:36 time_left.tsv
+
+./notebooks/catboost_info/fold-0/learn:
+total 20
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 21:29 .
+drwxr-xr-x 4 lkwasniewski lkwasniewski 4096 Jun 22 15:36 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski 9894 Jun 22 15:36 events.out.tfevents
+
+./notebooks/catboost_info/fold-0/test:
+total 20
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 21:29 .
+drwxr-xr-x 4 lkwasniewski lkwasniewski 4096 Jun 22 15:36 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski 9894 Jun 22 15:36 events.out.tfevents
+
+./notebooks/catboost_info/fold-1:
+total 44
+drwxr-xr-x 4 lkwasniewski lkwasniewski  4096 Jun 22 15:36 .
+drwxr-xr-x 9 lkwasniewski lkwasniewski  4096 Jun 22 15:36 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski 15003 Jun 22 15:36 catboost_training.json
+drwxr-xr-x 2 lkwasniewski lkwasniewski  4096 Jun 19 21:29 learn
+-rw-r--r-- 1 lkwasniewski lkwasniewski  2891 Jun 22 15:36 learn_error.tsv
+drwxr-xr-x 2 lkwasniewski lkwasniewski  4096 Jun 19 21:29 test
+-rw-r--r-- 1 lkwasniewski lkwasniewski  2896 Jun 22 15:36 test_error.tsv
+-rw-r--r-- 1 lkwasniewski lkwasniewski  1067 Jun 22 15:36 time_left.tsv
+
+./notebooks/catboost_info/fold-1/learn:
+total 20
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 21:29 .
+drwxr-xr-x 4 lkwasniewski lkwasniewski 4096 Jun 22 15:36 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski 9894 Jun 22 15:36 events.out.tfevents
+
+./notebooks/catboost_info/fold-1/test:
+total 20
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 21:29 .
+drwxr-xr-x 4 lkwasniewski lkwasniewski 4096 Jun 22 15:36 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski 9894 Jun 22 15:36 events.out.tfevents
+
+./notebooks/catboost_info/fold-2:
+total 44
+drwxr-xr-x 4 lkwasniewski lkwasniewski  4096 Jun 22 15:36 .
+drwxr-xr-x 9 lkwasniewski lkwasniewski  4096 Jun 22 15:36 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski 14963 Jun 22 15:36 catboost_training.json
+drwxr-xr-x 2 lkwasniewski lkwasniewski  4096 Jun 19 21:29 learn
+-rw-r--r-- 1 lkwasniewski lkwasniewski  2861 Jun 22 15:36 learn_error.tsv
+drwxr-xr-x 2 lkwasniewski lkwasniewski  4096 Jun 19 21:29 test
+-rw-r--r-- 1 lkwasniewski lkwasniewski  2854 Jun 22 15:36 test_error.tsv
+-rw-r--r-- 1 lkwasniewski lkwasniewski  1030 Jun 22 15:36 time_left.tsv
+
+./notebooks/catboost_info/fold-2/learn:
+total 20
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 21:29 .
+drwxr-xr-x 4 lkwasniewski lkwasniewski 4096 Jun 22 15:36 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski 9894 Jun 22 15:36 events.out.tfevents
+
+./notebooks/catboost_info/fold-2/test:
+total 20
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 21:29 .
+drwxr-xr-x 4 lkwasniewski lkwasniewski 4096 Jun 22 15:36 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski 9894 Jun 22 15:36 events.out.tfevents
+
+./notebooks/catboost_info/fold-3:
+total 44
+drwxr-xr-x 4 lkwasniewski lkwasniewski  4096 Jun 22 15:36 .
+drwxr-xr-x 9 lkwasniewski lkwasniewski  4096 Jun 22 15:36 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski 14977 Jun 22 15:36 catboost_training.json
+drwxr-xr-x 2 lkwasniewski lkwasniewski  4096 Jun 19 21:29 learn
+-rw-r--r-- 1 lkwasniewski lkwasniewski  2902 Jun 22 15:36 learn_error.tsv
+drwxr-xr-x 2 lkwasniewski lkwasniewski  4096 Jun 19 21:29 test
+-rw-r--r-- 1 lkwasniewski lkwasniewski  2830 Jun 22 15:36 test_error.tsv
+-rw-r--r-- 1 lkwasniewski lkwasniewski  1037 Jun 22 15:36 time_left.tsv
+
+./notebooks/catboost_info/fold-3/learn:
+total 20
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 21:29 .
+drwxr-xr-x 4 lkwasniewski lkwasniewski 4096 Jun 22 15:36 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski 9894 Jun 22 15:36 events.out.tfevents
+
+./notebooks/catboost_info/fold-3/test:
+total 20
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 21:29 .
+drwxr-xr-x 4 lkwasniewski lkwasniewski 4096 Jun 22 15:36 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski 9894 Jun 22 15:36 events.out.tfevents
+
+./notebooks/catboost_info/fold-4:
+total 44
+drwxr-xr-x 4 lkwasniewski lkwasniewski  4096 Jun 22 15:36 .
+drwxr-xr-x 9 lkwasniewski lkwasniewski  4096 Jun 22 15:36 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski 14959 Jun 22 15:36 catboost_training.json
+drwxr-xr-x 2 lkwasniewski lkwasniewski  4096 Jun 19 21:29 learn
+-rw-r--r-- 1 lkwasniewski lkwasniewski  2874 Jun 22 15:36 learn_error.tsv
+drwxr-xr-x 2 lkwasniewski lkwasniewski  4096 Jun 19 21:29 test
+-rw-r--r-- 1 lkwasniewski lkwasniewski  2843 Jun 22 15:36 test_error.tsv
+-rw-r--r-- 1 lkwasniewski lkwasniewski  1034 Jun 22 15:36 time_left.tsv
+
+./notebooks/catboost_info/fold-4/learn:
+total 20
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 21:29 .
+drwxr-xr-x 4 lkwasniewski lkwasniewski 4096 Jun 22 15:36 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski 9894 Jun 22 15:36 events.out.tfevents
+
+./notebooks/catboost_info/fold-4/test:
+total 20
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 21:29 .
+drwxr-xr-x 4 lkwasniewski lkwasniewski 4096 Jun 22 15:36 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski 9894 Jun 22 15:36 events.out.tfevents
+
+./notebooks/catboost_info/learn:
+total 16
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 20:01 .
+drwxr-xr-x 9 lkwasniewski lkwasniewski 4096 Jun 22 15:36 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski 5452 Jun 22 15:36 events.out.tfevents
+
+./notebooks/catboost_info/tmp:
+total 8
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 22 15:36 .
+drwxr-xr-x 9 lkwasniewski lkwasniewski 4096 Jun 22 15:36 ..
+
+./notebooks/mlruns:
+total 32
+drwxr-xr-x  8 lkwasniewski lkwasniewski 4096 Jun 19 22:40 .
+drwxr-xr-x  4 lkwasniewski lkwasniewski 4096 Jun 22 15:41 ..
+drwxr-xr-x 10 lkwasniewski lkwasniewski 4096 Jun 19 22:51 0
+drwxr-xr-x  3 lkwasniewski lkwasniewski 4096 Jun 19 22:40 128344922105132214
+drwxr-xr-x  2 lkwasniewski lkwasniewski 4096 Jun 19 22:25 255882847528969064
+drwxr-xr-x  2 lkwasniewski lkwasniewski 4096 Jun 19 22:39 489623762245518349
+drwxr-xr-x  3 lkwasniewski lkwasniewski 4096 Jun 19 21:39 models
+drwxr-xr-x  2 lkwasniewski lkwasniewski 4096 Jun 19 21:29 .trash
+
+./notebooks/mlruns/0:
+total 44
+drwxr-xr-x 10 lkwasniewski lkwasniewski 4096 Jun 19 22:51 .
+drwxr-xr-x  8 lkwasniewski lkwasniewski 4096 Jun 19 22:40 ..
+drwxr-xr-x  6 lkwasniewski lkwasniewski 4096 Jun 19 22:12 09e301de2b754c98921699e0af9a770b
+drwxr-xr-x  6 lkwasniewski lkwasniewski 4096 Jun 19 21:34 0a5a8f5708364130b27ab264b662b8cf
+drwxr-xr-x  6 lkwasniewski lkwasniewski 4096 Jun 19 21:39 10b18587db78479590724a304172eb47
+drwxr-xr-x  6 lkwasniewski lkwasniewski 4096 Jun 19 21:58 8a82224e9ea44a4986f2a26370beed48
+drwxr-xr-x  6 lkwasniewski lkwasniewski 4096 Jun 19 22:51 ac56f5e606264e40bbdc18a14b8860da
+drwxr-xr-x  6 lkwasniewski lkwasniewski 4096 Jun 19 21:29 e7cd8377834f4fa68c4f8c8b74437d43
+drwxr-xr-x  6 lkwasniewski lkwasniewski 4096 Jun 19 22:11 ef1376b6efc144c5aa328c0548ac792d
+drwxr-xr-x  6 lkwasniewski lkwasniewski 4096 Jun 19 22:05 fdae343c4c7c49a6be70809fd8c1b05c
+-rw-r--r--  1 lkwasniewski lkwasniewski  218 Jun 19 21:29 meta.yaml
+
+./notebooks/mlruns/0/09e301de2b754c98921699e0af9a770b:
+total 28
+drwxr-xr-x  6 lkwasniewski lkwasniewski 4096 Jun 19 22:12 .
+drwxr-xr-x 10 lkwasniewski lkwasniewski 4096 Jun 19 22:51 ..
+drwxr-xr-x  3 lkwasniewski lkwasniewski 4096 Jun 19 22:12 artifacts
+-rw-r--r--  1 lkwasniewski lkwasniewski  458 Jun 19 22:12 meta.yaml
+drwxr-xr-x  2 lkwasniewski lkwasniewski 4096 Jun 19 22:12 metrics
+drwxr-xr-x  2 lkwasniewski lkwasniewski 4096 Jun 19 22:12 params
+drwxr-xr-x  2 lkwasniewski lkwasniewski 4096 Jun 19 22:12 tags
+
+./notebooks/mlruns/0/09e301de2b754c98921699e0af9a770b/artifacts:
+total 204
+drwxr-xr-x 3 lkwasniewski lkwasniewski  4096 Jun 19 22:12 .
+drwxr-xr-x 6 lkwasniewski lkwasniewski  4096 Jun 19 22:12 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski 29560 Jun 19 22:12 catboost_model_diabetes.cbm
+-rw-r--r-- 1 lkwasniewski lkwasniewski  6732 Jun 19 22:12 estimator.pkl
+drwxr-xr-x 2 lkwasniewski lkwasniewski  4096 Jun 19 22:12 model
+-rw-r--r-- 1 lkwasniewski lkwasniewski 42136 Jun 19 22:12 test-F1-mean_vs_iterations.png
+-rw-r--r-- 1 lkwasniewski lkwasniewski 42882 Jun 19 22:12 test-logloss-mean_vs_iterations.png
+-rw-r--r-- 1 lkwasniewski lkwasniewski 61672 Jun 19 22:12 udc.pkl
+
+./notebooks/mlruns/0/09e301de2b754c98921699e0af9a770b/artifacts/model:
+total 188
+drwxr-xr-x 2 lkwasniewski lkwasniewski  4096 Jun 19 22:12 .
+drwxr-xr-x 3 lkwasniewski lkwasniewski  4096 Jun 19 22:12 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski   288 Jun 19 22:12 conda.yaml
+-rw-r--r-- 1 lkwasniewski lkwasniewski 36648 Jun 19 22:12 input_example.json
+-rw-r--r-- 1 lkwasniewski lkwasniewski  1325 Jun 19 22:12 MLmodel
+-rw-r--r-- 1 lkwasniewski lkwasniewski 29560 Jun 19 22:12 model.cb
+-rw-r--r-- 1 lkwasniewski lkwasniewski   114 Jun 19 22:12 python_env.yaml
+-rw-r--r-- 1 lkwasniewski lkwasniewski   155 Jun 19 22:12 requirements.txt
+-rw-r--r-- 1 lkwasniewski lkwasniewski 96649 Jun 19 22:12 serving_input_example.json
+
+./notebooks/mlruns/0/09e301de2b754c98921699e0af9a770b/metrics:
+total 12
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 22:12 .
+drwxr-xr-x 6 lkwasniewski lkwasniewski 4096 Jun 19 22:12 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski   35 Jun 19 22:12 f1_cv_mean
+
+./notebooks/mlruns/0/09e301de2b754c98921699e0af9a770b/params:
+total 48
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 22:12 .
+drwxr-xr-x 6 lkwasniewski lkwasniewski 4096 Jun 19 22:12 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski   18 Jun 19 22:12 bagging_temperature
+-rw-r--r-- 1 lkwasniewski lkwasniewski    1 Jun 19 22:12 depth
+-rw-r--r-- 1 lkwasniewski lkwasniewski    2 Jun 19 22:12 eval_metric
+-rw-r--r-- 1 lkwasniewski lkwasniewski  113 Jun 19 22:12 feature_columns
+-rw-r--r-- 1 lkwasniewski lkwasniewski    2 Jun 19 22:12 ignored_features
+-rw-r--r-- 1 lkwasniewski lkwasniewski    3 Jun 19 22:12 iterations
+-rw-r--r-- 1 lkwasniewski lkwasniewski   19 Jun 19 22:12 l2_leaf_reg
+-rw-r--r-- 1 lkwasniewski lkwasniewski   18 Jun 19 22:12 learning_rate
+-rw-r--r-- 1 lkwasniewski lkwasniewski    7 Jun 19 22:12 loss_function
+-rw-r--r-- 1 lkwasniewski lkwasniewski   17 Jun 19 22:12 random_strength
+
+./notebooks/mlruns/0/09e301de2b754c98921699e0af9a770b/tags:
+total 28
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 22:12 .
+drwxr-xr-x 6 lkwasniewski lkwasniewski 4096 Jun 19 22:12 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski  492 Jun 19 22:12 mlflow.log-model.history
+-rw-r--r-- 1 lkwasniewski lkwasniewski   20 Jun 19 22:12 mlflow.runName
+-rw-r--r-- 1 lkwasniewski lkwasniewski  100 Jun 19 22:12 mlflow.source.name
+-rw-r--r-- 1 lkwasniewski lkwasniewski    5 Jun 19 22:12 mlflow.source.type
+-rw-r--r-- 1 lkwasniewski lkwasniewski   12 Jun 19 22:12 mlflow.user
+
+./notebooks/mlruns/0/0a5a8f5708364130b27ab264b662b8cf:
+total 28
+drwxr-xr-x  6 lkwasniewski lkwasniewski 4096 Jun 19 21:34 .
+drwxr-xr-x 10 lkwasniewski lkwasniewski 4096 Jun 19 22:51 ..
+drwxr-xr-x  2 lkwasniewski lkwasniewski 4096 Jun 19 21:34 artifacts
+-rw-r--r--  1 lkwasniewski lkwasniewski  454 Jun 19 21:34 meta.yaml
+drwxr-xr-x  2 lkwasniewski lkwasniewski 4096 Jun 19 21:34 metrics
+drwxr-xr-x  2 lkwasniewski lkwasniewski 4096 Jun 19 21:34 params
+drwxr-xr-x  2 lkwasniewski lkwasniewski 4096 Jun 19 21:34 tags
+
+./notebooks/mlruns/0/0a5a8f5708364130b27ab264b662b8cf/artifacts:
+total 8
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 21:34 .
+drwxr-xr-x 6 lkwasniewski lkwasniewski 4096 Jun 19 21:34 ..
+
+./notebooks/mlruns/0/0a5a8f5708364130b27ab264b662b8cf/metrics:
+total 8
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 21:34 .
+drwxr-xr-x 6 lkwasniewski lkwasniewski 4096 Jun 19 21:34 ..
+
+./notebooks/mlruns/0/0a5a8f5708364130b27ab264b662b8cf/params:
+total 8
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 21:34 .
+drwxr-xr-x 6 lkwasniewski lkwasniewski 4096 Jun 19 21:34 ..
+
+./notebooks/mlruns/0/0a5a8f5708364130b27ab264b662b8cf/tags:
+total 24
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 21:34 .
+drwxr-xr-x 6 lkwasniewski lkwasniewski 4096 Jun 19 21:34 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski   16 Jun 19 21:34 mlflow.runName
+-rw-r--r-- 1 lkwasniewski lkwasniewski  100 Jun 19 21:34 mlflow.source.name
+-rw-r--r-- 1 lkwasniewski lkwasniewski    5 Jun 19 21:34 mlflow.source.type
+-rw-r--r-- 1 lkwasniewski lkwasniewski   12 Jun 19 21:34 mlflow.user
+
+./notebooks/mlruns/0/10b18587db78479590724a304172eb47:
+total 28
+drwxr-xr-x  6 lkwasniewski lkwasniewski 4096 Jun 19 21:39 .
+drwxr-xr-x 10 lkwasniewski lkwasniewski 4096 Jun 19 22:51 ..
+drwxr-xr-x  3 lkwasniewski lkwasniewski 4096 Jun 19 21:39 artifacts
+-rw-r--r--  1 lkwasniewski lkwasniewski  452 Jun 19 21:39 meta.yaml
+drwxr-xr-x  2 lkwasniewski lkwasniewski 4096 Jun 19 21:39 metrics
+drwxr-xr-x  2 lkwasniewski lkwasniewski 4096 Jun 19 21:39 params
+drwxr-xr-x  2 lkwasniewski lkwasniewski 4096 Jun 19 21:39 tags
+
+./notebooks/mlruns/0/10b18587db78479590724a304172eb47/artifacts:
+total 204
+drwxr-xr-x 3 lkwasniewski lkwasniewski  4096 Jun 19 21:39 .
+drwxr-xr-x 6 lkwasniewski lkwasniewski  4096 Jun 19 21:39 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski 29560 Jun 19 21:39 catboost_model_diabetes.cbm
+-rw-r--r-- 1 lkwasniewski lkwasniewski  6732 Jun 19 21:39 estimator.pkl
+drwxr-xr-x 2 lkwasniewski lkwasniewski  4096 Jun 19 21:39 model
+-rw-r--r-- 1 lkwasniewski lkwasniewski 42136 Jun 19 21:39 test-F1-mean_vs_iterations.png
+-rw-r--r-- 1 lkwasniewski lkwasniewski 42882 Jun 19 21:39 test-logloss-mean_vs_iterations.png
+-rw-r--r-- 1 lkwasniewski lkwasniewski 61672 Jun 19 21:39 udc.pkl
+
+./notebooks/mlruns/0/10b18587db78479590724a304172eb47/artifacts/model:
+total 188
+drwxr-xr-x 2 lkwasniewski lkwasniewski  4096 Jun 19 21:39 .
+drwxr-xr-x 3 lkwasniewski lkwasniewski  4096 Jun 19 21:39 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski   288 Jun 19 21:39 conda.yaml
+-rw-r--r-- 1 lkwasniewski lkwasniewski 36648 Jun 19 21:39 input_example.json
+-rw-r--r-- 1 lkwasniewski lkwasniewski  1325 Jun 19 21:39 MLmodel
+-rw-r--r-- 1 lkwasniewski lkwasniewski 29560 Jun 19 21:39 model.cb
+-rw-r--r-- 1 lkwasniewski lkwasniewski   114 Jun 19 21:39 python_env.yaml
+-rw-r--r-- 1 lkwasniewski lkwasniewski   155 Jun 19 21:39 requirements.txt
+-rw-r--r-- 1 lkwasniewski lkwasniewski 96649 Jun 19 21:39 serving_input_example.json
+
+./notebooks/mlruns/0/10b18587db78479590724a304172eb47/metrics:
+total 12
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 21:39 .
+drwxr-xr-x 6 lkwasniewski lkwasniewski 4096 Jun 19 21:39 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski   35 Jun 19 21:39 f1_cv_mean
+
+./notebooks/mlruns/0/10b18587db78479590724a304172eb47/params:
+total 48
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 21:39 .
+drwxr-xr-x 6 lkwasniewski lkwasniewski 4096 Jun 19 21:39 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski   18 Jun 19 21:39 bagging_temperature
+-rw-r--r-- 1 lkwasniewski lkwasniewski    1 Jun 19 21:39 depth
+-rw-r--r-- 1 lkwasniewski lkwasniewski    2 Jun 19 21:39 eval_metric
+-rw-r--r-- 1 lkwasniewski lkwasniewski  113 Jun 19 21:39 feature_columns
+-rw-r--r-- 1 lkwasniewski lkwasniewski    2 Jun 19 21:39 ignored_features
+-rw-r--r-- 1 lkwasniewski lkwasniewski    3 Jun 19 21:39 iterations
+-rw-r--r-- 1 lkwasniewski lkwasniewski   19 Jun 19 21:39 l2_leaf_reg
+-rw-r--r-- 1 lkwasniewski lkwasniewski   18 Jun 19 21:39 learning_rate
+-rw-r--r-- 1 lkwasniewski lkwasniewski    7 Jun 19 21:39 loss_function
+-rw-r--r-- 1 lkwasniewski lkwasniewski   17 Jun 19 21:39 random_strength
+
+./notebooks/mlruns/0/10b18587db78479590724a304172eb47/tags:
+total 28
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 21:39 .
+drwxr-xr-x 6 lkwasniewski lkwasniewski 4096 Jun 19 21:39 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski  492 Jun 19 21:39 mlflow.log-model.history
+-rw-r--r-- 1 lkwasniewski lkwasniewski   14 Jun 19 21:39 mlflow.runName
+-rw-r--r-- 1 lkwasniewski lkwasniewski  100 Jun 19 21:39 mlflow.source.name
+-rw-r--r-- 1 lkwasniewski lkwasniewski    5 Jun 19 21:39 mlflow.source.type
+-rw-r--r-- 1 lkwasniewski lkwasniewski   12 Jun 19 21:39 mlflow.user
+
+./notebooks/mlruns/0/8a82224e9ea44a4986f2a26370beed48:
+total 28
+drwxr-xr-x  6 lkwasniewski lkwasniewski 4096 Jun 19 21:58 .
+drwxr-xr-x 10 lkwasniewski lkwasniewski 4096 Jun 19 22:51 ..
+drwxr-xr-x  3 lkwasniewski lkwasniewski 4096 Jun 19 21:58 artifacts
+-rw-r--r--  1 lkwasniewski lkwasniewski  452 Jun 19 21:58 meta.yaml
+drwxr-xr-x  2 lkwasniewski lkwasniewski 4096 Jun 19 21:58 metrics
+drwxr-xr-x  2 lkwasniewski lkwasniewski 4096 Jun 19 21:58 params
+drwxr-xr-x  2 lkwasniewski lkwasniewski 4096 Jun 19 21:58 tags
+
+./notebooks/mlruns/0/8a82224e9ea44a4986f2a26370beed48/artifacts:
+total 204
+drwxr-xr-x 3 lkwasniewski lkwasniewski  4096 Jun 19 21:58 .
+drwxr-xr-x 6 lkwasniewski lkwasniewski  4096 Jun 19 21:58 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski 29560 Jun 19 21:58 catboost_model_diabetes.cbm
+-rw-r--r-- 1 lkwasniewski lkwasniewski  6732 Jun 19 21:58 estimator.pkl
+drwxr-xr-x 2 lkwasniewski lkwasniewski  4096 Jun 19 21:58 model
+-rw-r--r-- 1 lkwasniewski lkwasniewski 42136 Jun 19 21:58 test-F1-mean_vs_iterations.png
+-rw-r--r-- 1 lkwasniewski lkwasniewski 42882 Jun 19 21:58 test-logloss-mean_vs_iterations.png
+-rw-r--r-- 1 lkwasniewski lkwasniewski 61672 Jun 19 21:58 udc.pkl
+
+./notebooks/mlruns/0/8a82224e9ea44a4986f2a26370beed48/artifacts/model:
+total 188
+drwxr-xr-x 2 lkwasniewski lkwasniewski  4096 Jun 19 21:58 .
+drwxr-xr-x 3 lkwasniewski lkwasniewski  4096 Jun 19 21:58 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski   288 Jun 19 21:58 conda.yaml
+-rw-r--r-- 1 lkwasniewski lkwasniewski 36648 Jun 19 21:58 input_example.json
+-rw-r--r-- 1 lkwasniewski lkwasniewski  1325 Jun 19 21:58 MLmodel
+-rw-r--r-- 1 lkwasniewski lkwasniewski 29560 Jun 19 21:58 model.cb
+-rw-r--r-- 1 lkwasniewski lkwasniewski   114 Jun 19 21:58 python_env.yaml
+-rw-r--r-- 1 lkwasniewski lkwasniewski   155 Jun 19 21:58 requirements.txt
+-rw-r--r-- 1 lkwasniewski lkwasniewski 96649 Jun 19 21:58 serving_input_example.json
+
+./notebooks/mlruns/0/8a82224e9ea44a4986f2a26370beed48/metrics:
+total 12
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 21:58 .
+drwxr-xr-x 6 lkwasniewski lkwasniewski 4096 Jun 19 21:58 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski   35 Jun 19 21:58 f1_cv_mean
+
+./notebooks/mlruns/0/8a82224e9ea44a4986f2a26370beed48/params:
+total 48
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 21:58 .
+drwxr-xr-x 6 lkwasniewski lkwasniewski 4096 Jun 19 21:58 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski   18 Jun 19 21:58 bagging_temperature
+-rw-r--r-- 1 lkwasniewski lkwasniewski    1 Jun 19 21:58 depth
+-rw-r--r-- 1 lkwasniewski lkwasniewski    2 Jun 19 21:58 eval_metric
+-rw-r--r-- 1 lkwasniewski lkwasniewski  113 Jun 19 21:58 feature_columns
+-rw-r--r-- 1 lkwasniewski lkwasniewski    2 Jun 19 21:58 ignored_features
+-rw-r--r-- 1 lkwasniewski lkwasniewski    3 Jun 19 21:58 iterations
+-rw-r--r-- 1 lkwasniewski lkwasniewski   19 Jun 19 21:58 l2_leaf_reg
+-rw-r--r-- 1 lkwasniewski lkwasniewski   18 Jun 19 21:58 learning_rate
+-rw-r--r-- 1 lkwasniewski lkwasniewski    7 Jun 19 21:58 loss_function
+-rw-r--r-- 1 lkwasniewski lkwasniewski   17 Jun 19 21:58 random_strength
+
+./notebooks/mlruns/0/8a82224e9ea44a4986f2a26370beed48/tags:
+total 28
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 21:58 .
+drwxr-xr-x 6 lkwasniewski lkwasniewski 4096 Jun 19 21:58 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski  492 Jun 19 21:58 mlflow.log-model.history
+-rw-r--r-- 1 lkwasniewski lkwasniewski   14 Jun 19 21:58 mlflow.runName
+-rw-r--r-- 1 lkwasniewski lkwasniewski  100 Jun 19 21:58 mlflow.source.name
+-rw-r--r-- 1 lkwasniewski lkwasniewski    5 Jun 19 21:58 mlflow.source.type
+-rw-r--r-- 1 lkwasniewski lkwasniewski   12 Jun 19 21:58 mlflow.user
+
+./notebooks/mlruns/0/ac56f5e606264e40bbdc18a14b8860da:
+total 28
+drwxr-xr-x  6 lkwasniewski lkwasniewski 4096 Jun 19 22:51 .
+drwxr-xr-x 10 lkwasniewski lkwasniewski 4096 Jun 19 22:51 ..
+drwxr-xr-x  3 lkwasniewski lkwasniewski 4096 Jun 19 22:51 artifacts
+-rw-r--r--  1 lkwasniewski lkwasniewski  455 Jun 19 22:51 meta.yaml
+drwxr-xr-x  2 lkwasniewski lkwasniewski 4096 Jun 19 22:51 metrics
+drwxr-xr-x  2 lkwasniewski lkwasniewski 4096 Jun 19 22:51 params
+drwxr-xr-x  2 lkwasniewski lkwasniewski 4096 Jun 19 22:51 tags
+
+./notebooks/mlruns/0/ac56f5e606264e40bbdc18a14b8860da/artifacts:
+total 204
+drwxr-xr-x 3 lkwasniewski lkwasniewski  4096 Jun 19 22:51 .
+drwxr-xr-x 6 lkwasniewski lkwasniewski  4096 Jun 19 22:51 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski 29560 Jun 19 22:51 catboost_model_diabetes.cbm
+-rw-r--r-- 1 lkwasniewski lkwasniewski  6732 Jun 19 22:51 estimator.pkl
+drwxr-xr-x 2 lkwasniewski lkwasniewski  4096 Jun 19 22:51 model
+-rw-r--r-- 1 lkwasniewski lkwasniewski 42136 Jun 19 22:51 test-F1-mean_vs_iterations.png
+-rw-r--r-- 1 lkwasniewski lkwasniewski 42882 Jun 19 22:51 test-logloss-mean_vs_iterations.png
+-rw-r--r-- 1 lkwasniewski lkwasniewski 61672 Jun 19 22:51 udc.pkl
+
+./notebooks/mlruns/0/ac56f5e606264e40bbdc18a14b8860da/artifacts/model:
+total 188
+drwxr-xr-x 2 lkwasniewski lkwasniewski  4096 Jun 19 22:51 .
+drwxr-xr-x 3 lkwasniewski lkwasniewski  4096 Jun 19 22:51 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski   288 Jun 19 22:51 conda.yaml
+-rw-r--r-- 1 lkwasniewski lkwasniewski 36648 Jun 19 22:51 input_example.json
+-rw-r--r-- 1 lkwasniewski lkwasniewski  1325 Jun 19 22:51 MLmodel
+-rw-r--r-- 1 lkwasniewski lkwasniewski 29560 Jun 19 22:51 model.cb
+-rw-r--r-- 1 lkwasniewski lkwasniewski   114 Jun 19 22:51 python_env.yaml
+-rw-r--r-- 1 lkwasniewski lkwasniewski   155 Jun 19 22:51 requirements.txt
+-rw-r--r-- 1 lkwasniewski lkwasniewski 96649 Jun 19 22:51 serving_input_example.json
+
+./notebooks/mlruns/0/ac56f5e606264e40bbdc18a14b8860da/metrics:
+total 12
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 22:51 .
+drwxr-xr-x 6 lkwasniewski lkwasniewski 4096 Jun 19 22:51 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski   35 Jun 19 22:51 f1_cv_mean
+
+./notebooks/mlruns/0/ac56f5e606264e40bbdc18a14b8860da/params:
+total 48
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 22:51 .
+drwxr-xr-x 6 lkwasniewski lkwasniewski 4096 Jun 19 22:51 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski   18 Jun 19 22:51 bagging_temperature
+-rw-r--r-- 1 lkwasniewski lkwasniewski    1 Jun 19 22:51 depth
+-rw-r--r-- 1 lkwasniewski lkwasniewski    2 Jun 19 22:51 eval_metric
+-rw-r--r-- 1 lkwasniewski lkwasniewski  113 Jun 19 22:51 feature_columns
+-rw-r--r-- 1 lkwasniewski lkwasniewski    2 Jun 19 22:51 ignored_features
+-rw-r--r-- 1 lkwasniewski lkwasniewski    3 Jun 19 22:51 iterations
+-rw-r--r-- 1 lkwasniewski lkwasniewski   19 Jun 19 22:51 l2_leaf_reg
+-rw-r--r-- 1 lkwasniewski lkwasniewski   18 Jun 19 22:51 learning_rate
+-rw-r--r-- 1 lkwasniewski lkwasniewski    7 Jun 19 22:51 loss_function
+-rw-r--r-- 1 lkwasniewski lkwasniewski   17 Jun 19 22:51 random_strength
+
+./notebooks/mlruns/0/ac56f5e606264e40bbdc18a14b8860da/tags:
+total 28
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 22:51 .
+drwxr-xr-x 6 lkwasniewski lkwasniewski 4096 Jun 19 22:51 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski  492 Jun 19 22:51 mlflow.log-model.history
+-rw-r--r-- 1 lkwasniewski lkwasniewski   17 Jun 19 22:51 mlflow.runName
+-rw-r--r-- 1 lkwasniewski lkwasniewski  100 Jun 19 22:51 mlflow.source.name
+-rw-r--r-- 1 lkwasniewski lkwasniewski    5 Jun 19 22:51 mlflow.source.type
+-rw-r--r-- 1 lkwasniewski lkwasniewski   12 Jun 19 22:51 mlflow.user
+
+./notebooks/mlruns/0/e7cd8377834f4fa68c4f8c8b74437d43:
+total 28
+drwxr-xr-x  6 lkwasniewski lkwasniewski 4096 Jun 19 21:29 .
+drwxr-xr-x 10 lkwasniewski lkwasniewski 4096 Jun 19 22:51 ..
+drwxr-xr-x  2 lkwasniewski lkwasniewski 4096 Jun 19 21:29 artifacts
+-rw-r--r--  1 lkwasniewski lkwasniewski  455 Jun 19 21:29 meta.yaml
+drwxr-xr-x  2 lkwasniewski lkwasniewski 4096 Jun 19 21:29 metrics
+drwxr-xr-x  2 lkwasniewski lkwasniewski 4096 Jun 19 21:29 params
+drwxr-xr-x  2 lkwasniewski lkwasniewski 4096 Jun 19 21:29 tags
+
+./notebooks/mlruns/0/e7cd8377834f4fa68c4f8c8b74437d43/artifacts:
+total 40
+drwxr-xr-x 2 lkwasniewski lkwasniewski  4096 Jun 19 21:29 .
+drwxr-xr-x 6 lkwasniewski lkwasniewski  4096 Jun 19 21:29 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski 29560 Jun 19 21:29 catboost_model_diabetes.cbm
+
+./notebooks/mlruns/0/e7cd8377834f4fa68c4f8c8b74437d43/metrics:
+total 8
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 21:29 .
+drwxr-xr-x 6 lkwasniewski lkwasniewski 4096 Jun 19 21:29 ..
+
+./notebooks/mlruns/0/e7cd8377834f4fa68c4f8c8b74437d43/params:
+total 48
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 21:29 .
+drwxr-xr-x 6 lkwasniewski lkwasniewski 4096 Jun 19 21:29 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski   18 Jun 19 21:29 bagging_temperature
+-rw-r--r-- 1 lkwasniewski lkwasniewski    1 Jun 19 21:29 depth
+-rw-r--r-- 1 lkwasniewski lkwasniewski    2 Jun 19 21:29 eval_metric
+-rw-r--r-- 1 lkwasniewski lkwasniewski  113 Jun 19 21:29 feature_columns
+-rw-r--r-- 1 lkwasniewski lkwasniewski    2 Jun 19 21:29 ignored_features
+-rw-r--r-- 1 lkwasniewski lkwasniewski    3 Jun 19 21:29 iterations
+-rw-r--r-- 1 lkwasniewski lkwasniewski   19 Jun 19 21:29 l2_leaf_reg
+-rw-r--r-- 1 lkwasniewski lkwasniewski   18 Jun 19 21:29 learning_rate
+-rw-r--r-- 1 lkwasniewski lkwasniewski    7 Jun 19 21:29 loss_function
+-rw-r--r-- 1 lkwasniewski lkwasniewski   17 Jun 19 21:29 random_strength
+
+./notebooks/mlruns/0/e7cd8377834f4fa68c4f8c8b74437d43/tags:
+total 24
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 21:29 .
+drwxr-xr-x 6 lkwasniewski lkwasniewski 4096 Jun 19 21:29 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski   17 Jun 19 21:29 mlflow.runName
+-rw-r--r-- 1 lkwasniewski lkwasniewski  100 Jun 19 21:29 mlflow.source.name
+-rw-r--r-- 1 lkwasniewski lkwasniewski    5 Jun 19 21:29 mlflow.source.type
+-rw-r--r-- 1 lkwasniewski lkwasniewski   12 Jun 19 21:29 mlflow.user
+
+./notebooks/mlruns/0/ef1376b6efc144c5aa328c0548ac792d:
+total 28
+drwxr-xr-x  6 lkwasniewski lkwasniewski 4096 Jun 19 22:11 .
+drwxr-xr-x 10 lkwasniewski lkwasniewski 4096 Jun 19 22:51 ..
+drwxr-xr-x  3 lkwasniewski lkwasniewski 4096 Jun 19 22:11 artifacts
+-rw-r--r--  1 lkwasniewski lkwasniewski  453 Jun 19 22:11 meta.yaml
+drwxr-xr-x  2 lkwasniewski lkwasniewski 4096 Jun 19 22:11 metrics
+drwxr-xr-x  2 lkwasniewski lkwasniewski 4096 Jun 19 22:11 params
+drwxr-xr-x  2 lkwasniewski lkwasniewski 4096 Jun 19 22:11 tags
+
+./notebooks/mlruns/0/ef1376b6efc144c5aa328c0548ac792d/artifacts:
+total 204
+drwxr-xr-x 3 lkwasniewski lkwasniewski  4096 Jun 19 22:11 .
+drwxr-xr-x 6 lkwasniewski lkwasniewski  4096 Jun 19 22:11 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski 29560 Jun 19 22:11 catboost_model_diabetes.cbm
+-rw-r--r-- 1 lkwasniewski lkwasniewski  6732 Jun 19 22:11 estimator.pkl
+drwxr-xr-x 2 lkwasniewski lkwasniewski  4096 Jun 19 22:11 model
+-rw-r--r-- 1 lkwasniewski lkwasniewski 42136 Jun 19 22:11 test-F1-mean_vs_iterations.png
+-rw-r--r-- 1 lkwasniewski lkwasniewski 42882 Jun 19 22:11 test-logloss-mean_vs_iterations.png
+-rw-r--r-- 1 lkwasniewski lkwasniewski 61672 Jun 19 22:11 udc.pkl
+
+./notebooks/mlruns/0/ef1376b6efc144c5aa328c0548ac792d/artifacts/model:
+total 188
+drwxr-xr-x 2 lkwasniewski lkwasniewski  4096 Jun 19 22:11 .
+drwxr-xr-x 3 lkwasniewski lkwasniewski  4096 Jun 19 22:11 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski   288 Jun 19 22:11 conda.yaml
+-rw-r--r-- 1 lkwasniewski lkwasniewski 36648 Jun 19 22:11 input_example.json
+-rw-r--r-- 1 lkwasniewski lkwasniewski  1325 Jun 19 22:11 MLmodel
+-rw-r--r-- 1 lkwasniewski lkwasniewski 29560 Jun 19 22:11 model.cb
+-rw-r--r-- 1 lkwasniewski lkwasniewski   114 Jun 19 22:11 python_env.yaml
+-rw-r--r-- 1 lkwasniewski lkwasniewski   155 Jun 19 22:11 requirements.txt
+-rw-r--r-- 1 lkwasniewski lkwasniewski 96649 Jun 19 22:11 serving_input_example.json
+
+./notebooks/mlruns/0/ef1376b6efc144c5aa328c0548ac792d/metrics:
+total 12
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 22:11 .
+drwxr-xr-x 6 lkwasniewski lkwasniewski 4096 Jun 19 22:11 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski   35 Jun 19 22:11 f1_cv_mean
+
+./notebooks/mlruns/0/ef1376b6efc144c5aa328c0548ac792d/params:
+total 48
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 22:11 .
+drwxr-xr-x 6 lkwasniewski lkwasniewski 4096 Jun 19 22:11 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski   18 Jun 19 22:11 bagging_temperature
+-rw-r--r-- 1 lkwasniewski lkwasniewski    1 Jun 19 22:11 depth
+-rw-r--r-- 1 lkwasniewski lkwasniewski    2 Jun 19 22:11 eval_metric
+-rw-r--r-- 1 lkwasniewski lkwasniewski  113 Jun 19 22:11 feature_columns
+-rw-r--r-- 1 lkwasniewski lkwasniewski    2 Jun 19 22:11 ignored_features
+-rw-r--r-- 1 lkwasniewski lkwasniewski    3 Jun 19 22:11 iterations
+-rw-r--r-- 1 lkwasniewski lkwasniewski   19 Jun 19 22:11 l2_leaf_reg
+-rw-r--r-- 1 lkwasniewski lkwasniewski   18 Jun 19 22:11 learning_rate
+-rw-r--r-- 1 lkwasniewski lkwasniewski    7 Jun 19 22:11 loss_function
+-rw-r--r-- 1 lkwasniewski lkwasniewski   17 Jun 19 22:11 random_strength
+
+./notebooks/mlruns/0/ef1376b6efc144c5aa328c0548ac792d/tags:
+total 28
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 22:11 .
+drwxr-xr-x 6 lkwasniewski lkwasniewski 4096 Jun 19 22:11 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski  492 Jun 19 22:11 mlflow.log-model.history
+-rw-r--r-- 1 lkwasniewski lkwasniewski   15 Jun 19 22:11 mlflow.runName
+-rw-r--r-- 1 lkwasniewski lkwasniewski  100 Jun 19 22:11 mlflow.source.name
+-rw-r--r-- 1 lkwasniewski lkwasniewski    5 Jun 19 22:11 mlflow.source.type
+-rw-r--r-- 1 lkwasniewski lkwasniewski   12 Jun 19 22:11 mlflow.user
+
+./notebooks/mlruns/0/fdae343c4c7c49a6be70809fd8c1b05c:
+total 28
+drwxr-xr-x  6 lkwasniewski lkwasniewski 4096 Jun 19 22:05 .
+drwxr-xr-x 10 lkwasniewski lkwasniewski 4096 Jun 19 22:51 ..
+drwxr-xr-x  3 lkwasniewski lkwasniewski 4096 Jun 19 22:05 artifacts
+-rw-r--r--  1 lkwasniewski lkwasniewski  451 Jun 19 22:05 meta.yaml
+drwxr-xr-x  2 lkwasniewski lkwasniewski 4096 Jun 19 22:05 metrics
+drwxr-xr-x  2 lkwasniewski lkwasniewski 4096 Jun 19 22:05 params
+drwxr-xr-x  2 lkwasniewski lkwasniewski 4096 Jun 19 22:05 tags
+
+./notebooks/mlruns/0/fdae343c4c7c49a6be70809fd8c1b05c/artifacts:
+total 204
+drwxr-xr-x 3 lkwasniewski lkwasniewski  4096 Jun 19 22:05 .
+drwxr-xr-x 6 lkwasniewski lkwasniewski  4096 Jun 19 22:05 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski 29560 Jun 19 22:05 catboost_model_diabetes.cbm
+-rw-r--r-- 1 lkwasniewski lkwasniewski  6732 Jun 19 22:05 estimator.pkl
+drwxr-xr-x 2 lkwasniewski lkwasniewski  4096 Jun 19 22:05 model
+-rw-r--r-- 1 lkwasniewski lkwasniewski 42136 Jun 19 22:05 test-F1-mean_vs_iterations.png
+-rw-r--r-- 1 lkwasniewski lkwasniewski 42882 Jun 19 22:05 test-logloss-mean_vs_iterations.png
+-rw-r--r-- 1 lkwasniewski lkwasniewski 61672 Jun 19 22:05 udc.pkl
+
+./notebooks/mlruns/0/fdae343c4c7c49a6be70809fd8c1b05c/artifacts/model:
+total 188
+drwxr-xr-x 2 lkwasniewski lkwasniewski  4096 Jun 19 22:05 .
+drwxr-xr-x 3 lkwasniewski lkwasniewski  4096 Jun 19 22:05 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski   288 Jun 19 22:05 conda.yaml
+-rw-r--r-- 1 lkwasniewski lkwasniewski 36648 Jun 19 22:05 input_example.json
+-rw-r--r-- 1 lkwasniewski lkwasniewski  1325 Jun 19 22:05 MLmodel
+-rw-r--r-- 1 lkwasniewski lkwasniewski 29560 Jun 19 22:05 model.cb
+-rw-r--r-- 1 lkwasniewski lkwasniewski   114 Jun 19 22:05 python_env.yaml
+-rw-r--r-- 1 lkwasniewski lkwasniewski   155 Jun 19 22:05 requirements.txt
+-rw-r--r-- 1 lkwasniewski lkwasniewski 96649 Jun 19 22:05 serving_input_example.json
+
+./notebooks/mlruns/0/fdae343c4c7c49a6be70809fd8c1b05c/metrics:
+total 12
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 22:05 .
+drwxr-xr-x 6 lkwasniewski lkwasniewski 4096 Jun 19 22:05 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski   35 Jun 19 22:05 f1_cv_mean
+
+./notebooks/mlruns/0/fdae343c4c7c49a6be70809fd8c1b05c/params:
+total 48
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 22:05 .
+drwxr-xr-x 6 lkwasniewski lkwasniewski 4096 Jun 19 22:05 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski   18 Jun 19 22:05 bagging_temperature
+-rw-r--r-- 1 lkwasniewski lkwasniewski    1 Jun 19 22:05 depth
+-rw-r--r-- 1 lkwasniewski lkwasniewski    2 Jun 19 22:05 eval_metric
+-rw-r--r-- 1 lkwasniewski lkwasniewski  113 Jun 19 22:05 feature_columns
+-rw-r--r-- 1 lkwasniewski lkwasniewski    2 Jun 19 22:05 ignored_features
+-rw-r--r-- 1 lkwasniewski lkwasniewski    3 Jun 19 22:05 iterations
+-rw-r--r-- 1 lkwasniewski lkwasniewski   19 Jun 19 22:05 l2_leaf_reg
+-rw-r--r-- 1 lkwasniewski lkwasniewski   18 Jun 19 22:05 learning_rate
+-rw-r--r-- 1 lkwasniewski lkwasniewski    7 Jun 19 22:05 loss_function
+-rw-r--r-- 1 lkwasniewski lkwasniewski   17 Jun 19 22:05 random_strength
+
+./notebooks/mlruns/0/fdae343c4c7c49a6be70809fd8c1b05c/tags:
+total 28
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 22:05 .
+drwxr-xr-x 6 lkwasniewski lkwasniewski 4096 Jun 19 22:05 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski  492 Jun 19 22:05 mlflow.log-model.history
+-rw-r--r-- 1 lkwasniewski lkwasniewski   13 Jun 19 22:05 mlflow.runName
+-rw-r--r-- 1 lkwasniewski lkwasniewski  100 Jun 19 22:05 mlflow.source.name
+-rw-r--r-- 1 lkwasniewski lkwasniewski    5 Jun 19 22:05 mlflow.source.type
+-rw-r--r-- 1 lkwasniewski lkwasniewski   12 Jun 19 22:05 mlflow.user
+
+./notebooks/mlruns/128344922105132214:
+total 16
+drwxr-xr-x 3 lkwasniewski lkwasniewski 4096 Jun 19 22:40 .
+drwxr-xr-x 8 lkwasniewski lkwasniewski 4096 Jun 19 22:40 ..
+drwxr-xr-x 6 lkwasniewski lkwasniewski 4096 Jun 19 22:40 cd92e368d2e947c3b767a150ad2ca4ca
+-rw-r--r-- 1 lkwasniewski lkwasniewski  259 Jun 19 22:40 meta.yaml
+
+./notebooks/mlruns/128344922105132214/cd92e368d2e947c3b767a150ad2ca4ca:
+total 28
+drwxr-xr-x 6 lkwasniewski lkwasniewski 4096 Jun 19 22:40 .
+drwxr-xr-x 3 lkwasniewski lkwasniewski 4096 Jun 19 22:40 ..
+drwxr-xr-x 3 lkwasniewski lkwasniewski 4096 Jun 19 22:40 artifacts
+-rw-r--r-- 1 lkwasniewski lkwasniewski  483 Jun 19 22:40 meta.yaml
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 22:40 metrics
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 22:40 params
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 22:40 tags
+
+./notebooks/mlruns/128344922105132214/cd92e368d2e947c3b767a150ad2ca4ca/artifacts:
+total 200
+drwxr-xr-x 3 lkwasniewski lkwasniewski  4096 Jun 19 22:40 .
+drwxr-xr-x 6 lkwasniewski lkwasniewski  4096 Jun 19 22:40 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski 27152 Jun 19 22:40 catboost_model_diabetes.cbm
+-rw-r--r-- 1 lkwasniewski lkwasniewski  6732 Jun 19 22:40 estimator.pkl
+drwxr-xr-x 2 lkwasniewski lkwasniewski  4096 Jun 19 22:40 model
+-rw-r--r-- 1 lkwasniewski lkwasniewski 42136 Jun 19 22:40 test-F1-mean_vs_iterations.png
+-rw-r--r-- 1 lkwasniewski lkwasniewski 42882 Jun 19 22:40 test-logloss-mean_vs_iterations.png
+-rw-r--r-- 1 lkwasniewski lkwasniewski 61672 Jun 19 22:40 udc.pkl
+
+./notebooks/mlruns/128344922105132214/cd92e368d2e947c3b767a150ad2ca4ca/artifacts/model:
+total 184
+drwxr-xr-x 2 lkwasniewski lkwasniewski  4096 Jun 19 22:40 .
+drwxr-xr-x 3 lkwasniewski lkwasniewski  4096 Jun 19 22:40 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski   288 Jun 19 22:40 conda.yaml
+-rw-r--r-- 1 lkwasniewski lkwasniewski 36648 Jun 19 22:40 input_example.json
+-rw-r--r-- 1 lkwasniewski lkwasniewski  1325 Jun 19 22:40 MLmodel
+-rw-r--r-- 1 lkwasniewski lkwasniewski 27152 Jun 19 22:40 model.cb
+-rw-r--r-- 1 lkwasniewski lkwasniewski   114 Jun 19 22:40 python_env.yaml
+-rw-r--r-- 1 lkwasniewski lkwasniewski   155 Jun 19 22:40 requirements.txt
+-rw-r--r-- 1 lkwasniewski lkwasniewski 96649 Jun 19 22:40 serving_input_example.json
+
+./notebooks/mlruns/128344922105132214/cd92e368d2e947c3b767a150ad2ca4ca/metrics:
+total 12
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 22:40 .
+drwxr-xr-x 6 lkwasniewski lkwasniewski 4096 Jun 19 22:40 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski   35 Jun 19 22:40 f1_cv_mean
+
+./notebooks/mlruns/128344922105132214/cd92e368d2e947c3b767a150ad2ca4ca/params:
+total 40
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 22:40 .
+drwxr-xr-x 6 lkwasniewski lkwasniewski 4096 Jun 19 22:40 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski   18 Jun 19 22:40 bagging_temperature
+-rw-r--r-- 1 lkwasniewski lkwasniewski    1 Jun 19 22:40 depth
+-rw-r--r-- 1 lkwasniewski lkwasniewski  113 Jun 19 22:40 feature_columns
+-rw-r--r-- 1 lkwasniewski lkwasniewski    2 Jun 19 22:40 ignored_features
+-rw-r--r-- 1 lkwasniewski lkwasniewski    3 Jun 19 22:40 iterations
+-rw-r--r-- 1 lkwasniewski lkwasniewski   19 Jun 19 22:40 l2_leaf_reg
+-rw-r--r-- 1 lkwasniewski lkwasniewski   18 Jun 19 22:40 learning_rate
+-rw-r--r-- 1 lkwasniewski lkwasniewski   17 Jun 19 22:40 random_strength
+
+./notebooks/mlruns/128344922105132214/cd92e368d2e947c3b767a150ad2ca4ca/tags:
+total 28
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 22:40 .
+drwxr-xr-x 6 lkwasniewski lkwasniewski 4096 Jun 19 22:40 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski  492 Jun 19 22:40 mlflow.log-model.history
+-rw-r--r-- 1 lkwasniewski lkwasniewski   18 Jun 19 22:40 mlflow.runName
+-rw-r--r-- 1 lkwasniewski lkwasniewski  100 Jun 19 22:40 mlflow.source.name
+-rw-r--r-- 1 lkwasniewski lkwasniewski    5 Jun 19 22:40 mlflow.source.type
+-rw-r--r-- 1 lkwasniewski lkwasniewski   12 Jun 19 22:40 mlflow.user
+
+./notebooks/mlruns/255882847528969064:
+total 12
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 22:25 .
+drwxr-xr-x 8 lkwasniewski lkwasniewski 4096 Jun 19 22:40 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski  263 Jun 19 22:25 meta.yaml
+
+./notebooks/mlruns/489623762245518349:
+total 12
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 22:39 .
+drwxr-xr-x 8 lkwasniewski lkwasniewski 4096 Jun 19 22:40 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski  264 Jun 19 22:39 meta.yaml
+
+./notebooks/mlruns/models:
+total 12
+drwxr-xr-x  3 lkwasniewski lkwasniewski 4096 Jun 19 21:39 .
+drwxr-xr-x  8 lkwasniewski lkwasniewski 4096 Jun 19 22:40 ..
+drwxr-xr-x 10 lkwasniewski lkwasniewski 4096 Jun 19 22:51 diabetes-binary-class
+
+./notebooks/mlruns/models/diabetes-binary-class:
+total 44
+drwxr-xr-x 10 lkwasniewski lkwasniewski 4096 Jun 19 22:51 .
+drwxr-xr-x  3 lkwasniewski lkwasniewski 4096 Jun 19 21:39 ..
+drwxr-xr-x  2 lkwasniewski lkwasniewski 4096 Jun 19 21:39 aliases
+-rw-r--r--  1 lkwasniewski lkwasniewski  145 Jun 19 22:51 meta.yaml
+drwxr-xr-x  3 lkwasniewski lkwasniewski 4096 Jun 19 21:39 version-1
+drwxr-xr-x  3 lkwasniewski lkwasniewski 4096 Jun 19 21:58 version-2
+drwxr-xr-x  3 lkwasniewski lkwasniewski 4096 Jun 19 22:05 version-3
+drwxr-xr-x  3 lkwasniewski lkwasniewski 4096 Jun 19 22:11 version-4
+drwxr-xr-x  3 lkwasniewski lkwasniewski 4096 Jun 19 22:12 version-5
+drwxr-xr-x  3 lkwasniewski lkwasniewski 4096 Jun 19 22:40 version-6
+drwxr-xr-x  3 lkwasniewski lkwasniewski 4096 Jun 19 22:51 version-7
+
+./notebooks/mlruns/models/diabetes-binary-class/aliases:
+total 12
+drwxr-xr-x  2 lkwasniewski lkwasniewski 4096 Jun 19 21:39 .
+drwxr-xr-x 10 lkwasniewski lkwasniewski 4096 Jun 19 22:51 ..
+-rw-r--r--  1 lkwasniewski lkwasniewski    1 Jun 19 22:51 challenger
+
+./notebooks/mlruns/models/diabetes-binary-class/version-1:
+total 16
+drwxr-xr-x  3 lkwasniewski lkwasniewski 4096 Jun 19 21:39 .
+drwxr-xr-x 10 lkwasniewski lkwasniewski 4096 Jun 19 22:51 ..
+-rw-r--r--  1 lkwasniewski lkwasniewski  552 Jun 19 21:39 meta.yaml
+drwxr-xr-x  2 lkwasniewski lkwasniewski 4096 Jun 19 21:39 tags
+
+./notebooks/mlruns/models/diabetes-binary-class/version-1/tags:
+total 12
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 21:39 .
+drwxr-xr-x 3 lkwasniewski lkwasniewski 4096 Jun 19 21:39 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski   40 Jun 19 21:39 git_sha
+
+./notebooks/mlruns/models/diabetes-binary-class/version-2:
+total 16
+drwxr-xr-x  3 lkwasniewski lkwasniewski 4096 Jun 19 21:58 .
+drwxr-xr-x 10 lkwasniewski lkwasniewski 4096 Jun 19 22:51 ..
+-rw-r--r--  1 lkwasniewski lkwasniewski  552 Jun 19 21:58 meta.yaml
+drwxr-xr-x  2 lkwasniewski lkwasniewski 4096 Jun 19 21:58 tags
+
+./notebooks/mlruns/models/diabetes-binary-class/version-2/tags:
+total 12
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 21:58 .
+drwxr-xr-x 3 lkwasniewski lkwasniewski 4096 Jun 19 21:58 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski   40 Jun 19 21:58 git_sha
+
+./notebooks/mlruns/models/diabetes-binary-class/version-3:
+total 16
+drwxr-xr-x  3 lkwasniewski lkwasniewski 4096 Jun 19 22:05 .
+drwxr-xr-x 10 lkwasniewski lkwasniewski 4096 Jun 19 22:51 ..
+-rw-r--r--  1 lkwasniewski lkwasniewski  552 Jun 19 22:05 meta.yaml
+drwxr-xr-x  2 lkwasniewski lkwasniewski 4096 Jun 19 22:05 tags
+
+./notebooks/mlruns/models/diabetes-binary-class/version-3/tags:
+total 12
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 22:05 .
+drwxr-xr-x 3 lkwasniewski lkwasniewski 4096 Jun 19 22:05 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski   40 Jun 19 22:05 git_sha
+
+./notebooks/mlruns/models/diabetes-binary-class/version-4:
+total 16
+drwxr-xr-x  3 lkwasniewski lkwasniewski 4096 Jun 19 22:11 .
+drwxr-xr-x 10 lkwasniewski lkwasniewski 4096 Jun 19 22:51 ..
+-rw-r--r--  1 lkwasniewski lkwasniewski  552 Jun 19 22:11 meta.yaml
+drwxr-xr-x  2 lkwasniewski lkwasniewski 4096 Jun 19 22:11 tags
+
+./notebooks/mlruns/models/diabetes-binary-class/version-4/tags:
+total 12
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 22:11 .
+drwxr-xr-x 3 lkwasniewski lkwasniewski 4096 Jun 19 22:11 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski   40 Jun 19 22:11 git_sha
+
+./notebooks/mlruns/models/diabetes-binary-class/version-5:
+total 16
+drwxr-xr-x  3 lkwasniewski lkwasniewski 4096 Jun 19 22:12 .
+drwxr-xr-x 10 lkwasniewski lkwasniewski 4096 Jun 19 22:51 ..
+-rw-r--r--  1 lkwasniewski lkwasniewski  552 Jun 19 22:12 meta.yaml
+drwxr-xr-x  2 lkwasniewski lkwasniewski 4096 Jun 19 22:12 tags
+
+./notebooks/mlruns/models/diabetes-binary-class/version-5/tags:
+total 12
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 22:12 .
+drwxr-xr-x 3 lkwasniewski lkwasniewski 4096 Jun 19 22:12 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski   40 Jun 19 22:12 git_sha
+
+./notebooks/mlruns/models/diabetes-binary-class/version-6:
+total 16
+drwxr-xr-x  3 lkwasniewski lkwasniewski 4096 Jun 19 22:40 .
+drwxr-xr-x 10 lkwasniewski lkwasniewski 4096 Jun 19 22:51 ..
+-rw-r--r--  1 lkwasniewski lkwasniewski  568 Jun 19 22:40 meta.yaml
+drwxr-xr-x  2 lkwasniewski lkwasniewski 4096 Jun 19 22:40 tags
+
+./notebooks/mlruns/models/diabetes-binary-class/version-6/tags:
+total 12
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 22:40 .
+drwxr-xr-x 3 lkwasniewski lkwasniewski 4096 Jun 19 22:40 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski   40 Jun 19 22:40 git_sha
+
+./notebooks/mlruns/models/diabetes-binary-class/version-7:
+total 16
+drwxr-xr-x  3 lkwasniewski lkwasniewski 4096 Jun 19 22:51 .
+drwxr-xr-x 10 lkwasniewski lkwasniewski 4096 Jun 19 22:51 ..
+-rw-r--r--  1 lkwasniewski lkwasniewski  552 Jun 19 22:51 meta.yaml
+drwxr-xr-x  2 lkwasniewski lkwasniewski 4096 Jun 19 22:51 tags
+
+./notebooks/mlruns/models/diabetes-binary-class/version-7/tags:
+total 12
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 22:51 .
+drwxr-xr-x 3 lkwasniewski lkwasniewski 4096 Jun 19 22:51 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski   40 Jun 19 22:51 git_sha
+
+./notebooks/mlruns/.trash:
+total 8
+drwxr-xr-x 2 lkwasniewski lkwasniewski 4096 Jun 19 21:29 .
+drwxr-xr-x 8 lkwasniewski lkwasniewski 4096 Jun 19 22:40 ..
+
+./references:
+total 40
+drwxr-xr-x  2 lkwasniewski lkwasniewski  4096 Jun 19 20:14 .
+drwxr-xr-x 14 lkwasniewski lkwasniewski  4096 Jun 29 13:49 ..
+-rw-r--r--  1 lkwasniewski lkwasniewski     0 Jun 19 12:45 .gitkeep
+-rw-r--r--  1 lkwasniewski lkwasniewski 32110 Jun  8 07:06 image.png
+
+./reports:
+total 12
+drwxr-xr-x  3 lkwasniewski lkwasniewski 4096 Jun 19 12:45 .
+drwxr-xr-x 14 lkwasniewski lkwasniewski 4096 Jun 29 13:49 ..
+drwxr-xr-x  2 lkwasniewski lkwasniewski 4096 Jun 22 15:41 figures
+-rw-r--r--  1 lkwasniewski lkwasniewski    0 Jun 19 12:45 .gitkeep
+
+./reports/figures:
+total 212
+drwxr-xr-x 2 lkwasniewski lkwasniewski  4096 Jun 22 15:41 .
+drwxr-xr-x 3 lkwasniewski lkwasniewski  4096 Jun 19 12:45 ..
+-rw-r--r-- 1 lkwasniewski lkwasniewski 74603 Jun 22 15:41 diabetes_shap_overall.png
+-rw-r--r-- 1 lkwasniewski lkwasniewski     0 Jun 19 12:45 .gitkeep
+-rw-r--r-- 1 lkwasniewski lkwasniewski 42136 Jun 22 15:36 test-F1-mean_vs_iterations.png
+-rw-r--r-- 1 lkwasniewski lkwasniewski 42882 Jun 22 15:36 test-Logloss-mean_vs_iterations.png
+-rw-r--r-- 1 lkwasniewski lkwasniewski 40083 Jun 19 22:05 test_shap_overall.png
+
+./results:
+total 8
+drwxr-xr-x  2 lkwasniewski lkwasniewski 4096 Jun 19 22:01 .
+drwxr-xr-x 14 lkwasniewski lkwasniewski 4096 Jun 29 13:49 ..

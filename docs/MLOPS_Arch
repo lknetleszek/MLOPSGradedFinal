@@ -1,0 +1,94 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6">
+  <diagram name="Page-1" id="NXrpuHmNVpQpId7-NvEd">
+    <mxGraphModel dx="2066" dy="1960" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="s3NxEHzOri5aHEQ2EkYB-1" value="VS Code&lt;div&gt;(local desktop)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="250" y="360" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="s3NxEHzOri5aHEQ2EkYB-2" value="Kaggle&lt;div&gt;(Diabetes dataset)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="70" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s3NxEHzOri5aHEQ2EkYB-3" value="Github&lt;div&gt;(Code repo)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="414" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s3NxEHzOri5aHEQ2EkYB-4" value="AWS EC2&lt;div&gt;(MLFLOW server)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="630" y="30" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s3NxEHzOri5aHEQ2EkYB-5" value="AWS RDS&lt;div&gt;(Metadata server)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="630" y="130" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s3NxEHzOri5aHEQ2EkYB-6" value="AWS S3&lt;div&gt;(Artifacts location)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="630" y="220" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s3NxEHzOri5aHEQ2EkYB-7" value="Notebook" style="shape=card;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="300" y="485" width="60" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s3NxEHzOri5aHEQ2EkYB-8" value="Actions" style="shape=card;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="470" y="110" width="60" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s3NxEHzOri5aHEQ2EkYB-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.019;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="s3NxEHzOri5aHEQ2EkYB-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="120" as="sourcePoint" />
+            <mxPoint x="180" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s3NxEHzOri5aHEQ2EkYB-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" target="s3NxEHzOri5aHEQ2EkYB-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="70" as="sourcePoint" />
+            <mxPoint x="240" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s3NxEHzOri5aHEQ2EkYB-11" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="536" y="62.5" as="sourcePoint" />
+            <mxPoint x="630" y="63" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s3NxEHzOri5aHEQ2EkYB-12" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="s3NxEHzOri5aHEQ2EkYB-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="534" y="69.5" as="sourcePoint" />
+            <mxPoint x="628" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s3NxEHzOri5aHEQ2EkYB-13" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;entryX=0.554;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="s3NxEHzOri5aHEQ2EkYB-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="100" as="sourcePoint" />
+            <mxPoint x="764" y="100.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s3NxEHzOri5aHEQ2EkYB-16" value="&lt;b&gt;&lt;font style=&quot;font-size: 36px;&quot;&gt;MLOPS Architecture for Diabetes dataset&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="-50" width="780" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s3NxEHzOri5aHEQ2EkYB-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.019;exitY=0.427;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.167;entryY=1.067;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="s3NxEHzOri5aHEQ2EkYB-1" target="s3NxEHzOri5aHEQ2EkYB-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="160" as="sourcePoint" />
+            <mxPoint x="440" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s3NxEHzOri5aHEQ2EkYB-18" value="GIT pull / push" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s3NxEHzOri5aHEQ2EkYB-19" value="triggered on push / merge / change" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s3NxEHzOri5aHEQ2EkYB-20" value="get / preproc / train / predict&lt;div&gt;+ config&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="275" y="580" width="110" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="s3NxEHzOri5aHEQ2EkYB-22" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="320" as="sourcePoint" />
+            <mxPoint x="800" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s3NxEHzOri5aHEQ2EkYB-25" value="Cloud" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="40" y="10" width="740" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="s3NxEHzOri5aHEQ2EkYB-26" value="Local" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="44" y="340" width="740" height="290" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
