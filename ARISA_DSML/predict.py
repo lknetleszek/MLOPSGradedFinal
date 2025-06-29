@@ -122,7 +122,7 @@ if __name__ == "__main__":
     analysis_df["prediction"] = df_preds["prediction"]
     analysis_df["predicted_probability"] = df_preds["predicted_probability"]
     git_hash = get_git_commit_hash()
-    mlflow.set_experiment("diabetes_predictions")
+    mlflow.set_experiment("diabetes_hyperparam_tuning_v2")
     with mlflow.start_run(tags={"git_sha": git_hash}):
         estimated_performance = estimator.estimate(analysis_df)
         mlflow.log_figure(estimated_performance.plot(), "estimated_performance.png")
