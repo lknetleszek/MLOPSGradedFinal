@@ -108,7 +108,6 @@ if __name__ == "__main__":
     if missing_cols:
         raise RuntimeError(f"The following expected feature columns are missing in test data: {missing_cols}")
 
-
     preds_path = predict(loaded_model, df_test, params, probs=True)
     df_preds = pd.read_csv(preds_path)
 
